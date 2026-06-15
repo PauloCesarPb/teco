@@ -1,0 +1,39 @@
+{
+  "_comment": "URLs de categoría por tienda para el rastreador (npm run crawl). Ajusta/añade URLs y selectores en price-sources.json según necesites.",
+  "falabella": [
+    { "category": "Smartphones", "url": "https://www.falabella.com.pe/falabella-pe/category/cat760706/Celulares-y-Telefonos" },
+    { "category": "Laptops", "url": "https://www.falabella.com.pe/falabella-pe/category/cat40051/Computadoras" },
+    { "category": "Tablets", "url": "https://www.falabella.com.pe/falabella-pe/category/cat3197/Tablets" },
+    { "category": "Audífonos", "url": "https://www.falabella.com.pe/falabella-pe/category/cat3091/Audifonos" },
+    { "category": "Televisores", "url": "https://www.falabella.com.pe/falabella-pe/category/cat7090035/Televisores" },
+    { "category": "Wearables", "url": "https://www.falabella.com.pe/falabella-pe/category/cat4074/Smartwatches-y-Wearables" }
+  ],
+  "ripley": [
+    { "category": "Smartphones", "url": "https://simple.ripley.com.pe/tecnologia/celulares" },
+    { "category": "Laptops", "url": "https://simple.ripley.com.pe/tecnologia/computacion/laptops" },
+    { "category": "Audífonos", "url": "https://simple.ripley.com.pe/tecnologia/audio-y-musica/audifonos" },
+    { "category": "Televisores", "url": "https://simple.ripley.com.pe/tecnologia/television" }
+  ],
+  "oechsle": [
+    { "category": "Smartphones", "url": "https://www.oechsle.pe/tecnologia/celulares" },
+    { "category": "Laptops", "url": "https://www.oechsle.pe/tecnologia/computo/laptops" },
+    { "category": "Audífonos", "url": "https://www.oechsle.pe/tecnologia/audifonos" },
+    { "category": "Televisores", "url": "https://www.oechsle.pe/tecnologia/televisores" }
+  ],
+  "hiraoka": [
+    { "category": "Smartphones", "url": "https://hiraoka.com.pe/celulares-y-telefonia" },
+    { "category": "Laptops", "url": "https://hiraoka.com.pe/computo/laptops" },
+    { "category": "Audífonos", "url": "https://hiraoka.com.pe/audio/audifonos" },
+    { "category": "Televisores", "url": "https://hiraoka.com.pe/television" }
+  ],
+  "plazavea": [
+    { "category": "Smartphones", "url": "https://www.plazavea.com.pe/tecnologia/celulares-y-accesorios" },
+    { "category": "Laptops", "url": "https://www.plazavea.com.pe/tecnologia/computo" },
+    { "category": "Televisores", "url": "https://www.plazavea.com.pe/tecnologia/televisores-y-video" }
+  ],
+  "lacuracao": [
+    { "category": "Smartphones", "url": "https://www.lacuracao.pe/tecnologia/celulares" },
+    { "category": "Laptops", "url": "https://www.lacuracao.pe/tecnologia/computo/laptops" },
+    { "category": "Televisores", "url": "https://www.lacuracao.pe/tecnologia/televisores" }
+  ]
+}

@@ -1,0 +1,3323 @@
+[
+  {
+    "productId": "iphone-16-128",
+    "companyId": "falabella",
+    "price": 2849,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18120095/iPhone-16-128GB/20687065",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2849
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-128",
+    "companyId": "plazavea",
+    "price": 3299,
+    "specialPrice": 2599,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3299
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-128",
+    "companyId": "oechsle",
+    "price": null,
+    "specialPrice": null,
+    "link": "https://www.oechsle.pe/iphone-16-128gb---blanco-1000889484/p",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "note": "Agotado al validar"
+  },
+  {
+    "productId": "galaxy-s24-ultra-256",
+    "companyId": "falabella",
+    "price": 3329,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/20178937/galaxy-s24-ultra-5g-256gb-titanium-black/20178937",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3329
+      }
+    ]
+  },
+  {
+    "productId": "jbl-wave-buds",
+    "companyId": "falabella",
+    "price": 129,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/21298625/audifonos-bluetooth-jbl-wave-buds-negro/21298625",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "productId": "redmi-buds-4-active",
+    "companyId": "falabella",
+    "price": 89.9,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/121504941/Audifono-Xiaomi-Redmi-Buds-4-Active-Bluetooth-5.3-Negro/121504942",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 89.9
+      }
+    ]
+  },
+  {
+    "productId": "redmi-buds-4-active",
+    "companyId": "hiraoka",
+    "price": null,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/audifonos-bluetooth-xiaomi-redmi-buds-4-active",
+    "date": "2026-06-03",
+    "status": "Validado"
+  },
+  {
+    "productId": "powerbank-xiaomi-20000",
+    "companyId": "falabella",
+    "price": 139.9,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/21283796/powerbank-xiaomi-20000mah-dark-gray/21283823",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 139.9
+      }
+    ]
+  },
+  {
+    "productId": "cargador-apple-20w",
+    "companyId": "falabella",
+    "price": 99,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/17738646/Adaptador-de-corriente-Apple-USB-C-20W/17738646",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "productId": "ipad-a16-128-wifi",
+    "companyId": "plazavea",
+    "price": 1599,
+    "specialPrice": null,
+    "link": "https://www.plazavea.com.pe/ipad-11-2025-11va-gen-chip-a16-wifi-128gb-101352048/p",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "ipad-a16-128-wifi",
+    "companyId": "falabella",
+    "price": 1699,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18440041/iPad-Apple-11-Chip-A16-Wi-Fi/21014911",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1699
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-ideapad-slim3-16-512",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/137384411/laptop-lenovo-ideapad-slim-3-15iah8-15-6-fhd-intel-core-i5-12va-gen-16gb-512gb-ssd-freedos/137384412",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-ideapad-slim3-16-512",
+    "companyId": "hiraoka",
+    "price": 2399,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/laptop-lenovo-ideapad-slim-3i-de-15-6-modelo-83er0019lm-procesador-intel-core-i5-12450h-12va-generacion-16gb-ram-disco-solido-de-512gb-camara-web-1080p-fhd-entrada-usb-hdmi-y-tipo-c-bluetooth-v5-1-wifi-windows-11-home-para-oficina-o-estudian",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2399
+      }
+    ]
+  },
+  {
+    "productId": "iphone-15-128",
+    "companyId": "falabella",
+    "price": 3099,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod17580066/Iphone-15-128Gb/20039956",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3099
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-a55-256",
+    "companyId": "falabella",
+    "price": 1399,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod17840390/Galaxy-A55-8gb-256gb/20272410",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "productId": "airpods-pro-2",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/20073386/Airpods-Pro-(2nd-Gen-Usb-c)-Ame/20073386",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "ps5-slim-disc",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/128734055/Consola-Playstation-5-Slim-con-Lectora-de-Discos/128734056",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "ps5-slim-disc",
+    "companyId": "ripley",
+    "price": null,
+    "specialPrice": null,
+    "link": "https://simple.ripley.com.pe/consola-ps5-playstation-5-slim-standard-2031331143423p",
+    "date": "2026-06-03",
+    "status": "Validado"
+  },
+  {
+    "productId": "xiaomi-smart-band-9",
+    "companyId": "falabella",
+    "price": 229,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/135567743/Xiaomi-Smart-Band-9-Midnight-Black./135567744",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 229
+      }
+    ]
+  },
+  {
+    "productId": "jbl-wave-buds",
+    "companyId": "oechsle",
+    "price": 149,
+    "specialPrice": null,
+    "link": "https://www.oechsle.pe/audifonos-bluetooth-jbl-wave-buds-tws-pure-bass-32hr-blanco-1000887988/p",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "jbl-wave-buds",
+    "companyId": "ripley",
+    "price": 139,
+    "specialPrice": null,
+    "link": "https://simple.ripley.com.pe/audifonos-jbl-wave-buds-pmp20000575193",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 139
+      }
+    ]
+  },
+  {
+    "productId": "jbl-wave-buds",
+    "companyId": "hiraoka",
+    "price": 149,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/audifono-bluetooth-jbl-wave-buds-negro",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-128",
+    "companyId": "hiraoka",
+    "price": 3999,
+    "specialPrice": 3499,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-pro-256",
+    "companyId": "falabella",
+    "price": 4999,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18120099/iPhone-16-Pro-256GB/20687079",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": false,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "iphone-15-pro-256",
+    "companyId": "falabella",
+    "price": 4299,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod17580071/Iphone-15-Pro-256Gb/20039990",
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": false,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4299
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-s24-256",
+    "companyId": "falabella",
+    "price": 2799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-a35-256",
+    "companyId": "falabella",
+    "price": 1199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1199
+      }
+    ]
+  },
+  {
+    "productId": "redmi-note-13-pro-256",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-14-256",
+    "companyId": "falabella",
+    "price": 2999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "productId": "macbook-air-m3-256",
+    "companyId": "falabella",
+    "price": 4999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "hp-15-i5-512",
+    "companyId": "falabella",
+    "price": 2499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2499
+      }
+    ]
+  },
+  {
+    "productId": "asus-vivobook-15-i5",
+    "companyId": "falabella",
+    "price": 2399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2399
+      }
+    ]
+  },
+  {
+    "productId": "ipad-air-m2-128",
+    "companyId": "falabella",
+    "price": 2899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2899
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-tab-s9-fe",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "sony-wh-1000xm5",
+    "companyId": "falabella",
+    "price": 1499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "productId": "airpods-4",
+    "companyId": "falabella",
+    "price": 649,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 649
+      }
+    ]
+  },
+  {
+    "productId": "apple-watch-se-2",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-watch-7",
+    "companyId": "falabella",
+    "price": 1299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "productId": "xbox-series-s",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "nintendo-switch-oled",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "samsung-tv-50-cu",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "lg-tv-55-uhd",
+    "companyId": "falabella",
+    "price": 1899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "iphone-17-256",
+    "companyId": "falabella",
+    "price": 4299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4299
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-plus-128",
+    "companyId": "falabella",
+    "price": 3699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3699
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-s25-256",
+    "companyId": "falabella",
+    "price": 3499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-s25-ultra-256",
+    "companyId": "falabella",
+    "price": 5499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 5499
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-a16-128",
+    "companyId": "falabella",
+    "price": 699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "productId": "redmi-note-14-pro-256",
+    "companyId": "falabella",
+    "price": 1199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1199
+      }
+    ]
+  },
+  {
+    "productId": "poco-x6-pro-256",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "motorola-moto-g84-256",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "honor-x8b-256",
+    "companyId": "falabella",
+    "price": 799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "productId": "macbook-air-m2-256",
+    "companyId": "falabella",
+    "price": 3899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3899
+      }
+    ]
+  },
+  {
+    "productId": "macbook-pro-14-m4",
+    "companyId": "falabella",
+    "price": 8499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 8499
+      }
+    ]
+  },
+  {
+    "productId": "hp-victus-15-rtx2050",
+    "companyId": "falabella",
+    "price": 3499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-loq-15-rtx4050",
+    "companyId": "falabella",
+    "price": 4299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4299
+      }
+    ]
+  },
+  {
+    "productId": "asus-tuf-gaming-a15",
+    "companyId": "falabella",
+    "price": 3999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "productId": "acer-aspire-3-i5-512",
+    "companyId": "falabella",
+    "price": 1899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "ipad-10-64",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-tab-a9-plus",
+    "companyId": "falabella",
+    "price": 999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-pad-6",
+    "companyId": "falabella",
+    "price": 1499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "productId": "airpods-max",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "jbl-tune-520bt",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "sony-wh-ch520",
+    "companyId": "falabella",
+    "price": 249,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 249
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-buds-fe",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "apple-watch-series-10",
+    "companyId": "falabella",
+    "price": 1899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "galaxy-watch-ultra",
+    "companyId": "falabella",
+    "price": 2999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "productId": "amazfit-bip-5",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "ps5-pro",
+    "companyId": "falabella",
+    "price": 3999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "productId": "xbox-series-x",
+    "companyId": "falabella",
+    "price": 2799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "productId": "nintendo-switch-2",
+    "companyId": "falabella",
+    "price": 2799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "productId": "samsung-tv-55-cu",
+    "companyId": "falabella",
+    "price": 1899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "lg-oled-55-c4",
+    "companyId": "falabella",
+    "price": 4999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "tcl-tv-50-qled",
+    "companyId": "falabella",
+    "price": 1499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "productId": "samsung-monitor-24-fhd",
+    "companyId": "falabella",
+    "price": 599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "productId": "lg-monitor-27-ultragear",
+    "companyId": "falabella",
+    "price": 1299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-03",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-03",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16e-128gb",
+    "companyId": "falabella",
+    "price": 2899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2899
+      }
+    ]
+  },
+  {
+    "productId": "iphone-16-pro-max-256gb",
+    "companyId": "falabella",
+    "price": 5999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 5999
+      }
+    ]
+  },
+  {
+    "productId": "iphone-14-128gb",
+    "companyId": "falabella",
+    "price": 2499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2499
+      }
+    ]
+  },
+  {
+    "productId": "iphone-13-128gb",
+    "companyId": "falabella",
+    "price": 2199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2199
+      }
+    ]
+  },
+  {
+    "productId": "iphone-se-2022-64gb",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-s24-fe-256gb",
+    "companyId": "falabella",
+    "price": 2499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2499
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-s23-ultra-256gb",
+    "companyId": "falabella",
+    "price": 3999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-s23-fe-256gb",
+    "companyId": "falabella",
+    "price": 1999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-a36-256gb",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-a26-128gb",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-a06-128gb",
+    "companyId": "falabella",
+    "price": 499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-z-flip-6-256gb",
+    "companyId": "falabella",
+    "price": 4999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-z-fold-6-256gb",
+    "companyId": "falabella",
+    "price": 7999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 7999
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-15-256gb",
+    "companyId": "falabella",
+    "price": 3499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-14t-256gb",
+    "companyId": "falabella",
+    "price": 1999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-redmi-note-13-128gb",
+    "companyId": "falabella",
+    "price": 799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-redmi-14c-256gb",
+    "companyId": "falabella",
+    "price": 549,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 549
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-poco-f6-256gb",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-poco-m6-pro-256gb",
+    "companyId": "falabella",
+    "price": 799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "productId": "motorola-edge-50-pro-256gb",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "motorola-moto-g85-256gb",
+    "companyId": "falabella",
+    "price": 999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "productId": "motorola-moto-g54-256gb",
+    "companyId": "falabella",
+    "price": 749,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 749
+      }
+    ]
+  },
+  {
+    "productId": "honor-200-256gb",
+    "companyId": "falabella",
+    "price": 1699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1699
+      }
+    ]
+  },
+  {
+    "productId": "honor-x9b-256gb",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "realme-13-pro-256gb",
+    "companyId": "falabella",
+    "price": 1299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "productId": "realme-c67-128gb",
+    "companyId": "falabella",
+    "price": 699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "productId": "huawei-nova-13-256gb",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "oppo-reno-12-256gb",
+    "companyId": "falabella",
+    "price": 1499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1499
+      }
+    ]
+  },
+  {
+    "productId": "hp-pavilion-15-i7-16gb-512gb",
+    "companyId": "falabella",
+    "price": 3299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3299
+      }
+    ]
+  },
+  {
+    "productId": "hp-250-g10-i5-8gb-512gb",
+    "companyId": "falabella",
+    "price": 1999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "productId": "hp-omen-16-rtx-4060",
+    "companyId": "falabella",
+    "price": 5999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 5999
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-ideapad-slim-5-i7-16gb-512gb",
+    "companyId": "falabella",
+    "price": 2999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-legion-5-rtx-4060",
+    "companyId": "falabella",
+    "price": 5499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 5499
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-thinkpad-e14-i5-16gb-512gb",
+    "companyId": "falabella",
+    "price": 3299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3299
+      }
+    ]
+  },
+  {
+    "productId": "asus-zenbook-14-oled-i7",
+    "companyId": "falabella",
+    "price": 4299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4299
+      }
+    ]
+  },
+  {
+    "productId": "asus-rog-strix-g16-rtx-4070",
+    "companyId": "falabella",
+    "price": 7499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 7499
+      }
+    ]
+  },
+  {
+    "productId": "acer-nitro-v15-rtx-4050",
+    "companyId": "falabella",
+    "price": 3799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3799
+      }
+    ]
+  },
+  {
+    "productId": "dell-inspiron-15-i5-16gb-512gb",
+    "companyId": "falabella",
+    "price": 2599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2599
+      }
+    ]
+  },
+  {
+    "productId": "macbook-air-m1-13-256gb",
+    "companyId": "falabella",
+    "price": 3299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3299
+      }
+    ]
+  },
+  {
+    "productId": "macbook-pro-16-m4-pro",
+    "companyId": "falabella",
+    "price": 11999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 11999
+      }
+    ]
+  },
+  {
+    "productId": "msi-thin-15-rtx-4050",
+    "companyId": "falabella",
+    "price": 3999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3999
+      }
+    ]
+  },
+  {
+    "productId": "asus-vivobook-go-15",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "ipad-mini-7-128gb",
+    "companyId": "falabella",
+    "price": 2399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2399
+      }
+    ]
+  },
+  {
+    "productId": "ipad-pro-11-m4-256gb",
+    "companyId": "falabella",
+    "price": 4999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-tab-s10-plus-256gb",
+    "companyId": "falabella",
+    "price": 4499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4499
+      }
+    ]
+  },
+  {
+    "productId": "lenovo-tab-m11-128gb",
+    "companyId": "falabella",
+    "price": 999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-redmi-pad-se-128gb",
+    "companyId": "falabella",
+    "price": 799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-pad-7-128gb",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "huawei-matepad-11-5-128gb",
+    "companyId": "falabella",
+    "price": 1399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-tab-s9-256gb",
+    "companyId": "falabella",
+    "price": 2999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "productId": "airpods-3",
+    "companyId": "falabella",
+    "price": 749,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 749
+      }
+    ]
+  },
+  {
+    "productId": "sony-wf-1000xm5",
+    "companyId": "falabella",
+    "price": 999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "productId": "sony-wh-1000xm4",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "sony-wf-c510",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-buds-3",
+    "companyId": "falabella",
+    "price": 599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-buds-3-pro",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "bose-quietcomfort-ultra",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "jbl-tune-720bt",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "jbl-live-770nc",
+    "companyId": "falabella",
+    "price": 599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "productId": "jbl-wave-flex",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-redmi-buds-6",
+    "companyId": "falabella",
+    "price": 149,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "soundcore-by-anker-p40i",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "marshall-major-v",
+    "companyId": "falabella",
+    "price": 699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "productId": "beats-studio-buds",
+    "companyId": "falabella",
+    "price": 499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "productId": "apple-watch-ultra-2",
+    "companyId": "falabella",
+    "price": 3499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3499
+      }
+    ]
+  },
+  {
+    "productId": "apple-watch-series-9",
+    "companyId": "falabella",
+    "price": 1699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1699
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-watch-fe",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "samsung-galaxy-fit-3",
+    "companyId": "falabella",
+    "price": 249,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 249
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-smart-band-9-pro",
+    "companyId": "falabella",
+    "price": 349,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 349
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-watch-s3",
+    "companyId": "falabella",
+    "price": 699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "productId": "redmi-watch-5",
+    "companyId": "falabella",
+    "price": 449,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "productId": "huawei-watch-gt-5",
+    "companyId": "falabella",
+    "price": 1099,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "amazfit-gtr-4",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "amazfit-active",
+    "companyId": "falabella",
+    "price": 499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "productId": "playstation-5-slim-digital",
+    "companyId": "falabella",
+    "price": 1899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "mando-dualsense-ps5",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "nintendo-switch-lite",
+    "companyId": "falabella",
+    "price": 999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 999
+      }
+    ]
+  },
+  {
+    "productId": "mando-xbox-series",
+    "companyId": "falabella",
+    "price": 279,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 279
+      }
+    ]
+  },
+  {
+    "productId": "meta-quest-3-128gb",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "samsung-smart-tv-43-crystal-uhd-4k",
+    "companyId": "falabella",
+    "price": 1399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "productId": "samsung-smart-tv-65-crystal-uhd-4k",
+    "companyId": "falabella",
+    "price": 2799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "productId": "samsung-qled-55-q60-4k",
+    "companyId": "falabella",
+    "price": 2499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2499
+      }
+    ]
+  },
+  {
+    "productId": "lg-smart-tv-50-uhd-4k",
+    "companyId": "falabella",
+    "price": 1599,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1599
+      }
+    ]
+  },
+  {
+    "productId": "lg-oled-65-c4-4k",
+    "companyId": "falabella",
+    "price": 6999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 6999
+      }
+    ]
+  },
+  {
+    "productId": "lg-nanocell-55-4k",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "tcl-qled-55-4k",
+    "companyId": "falabella",
+    "price": 1799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1799
+      }
+    ]
+  },
+  {
+    "productId": "tcl-smart-tv-65-4k",
+    "companyId": "falabella",
+    "price": 2299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2299
+      }
+    ]
+  },
+  {
+    "productId": "hisense-55-u6-uled-4k",
+    "companyId": "falabella",
+    "price": 1999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "productId": "hisense-smart-tv-50-4k",
+    "companyId": "falabella",
+    "price": 1399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1399
+      }
+    ]
+  },
+  {
+    "productId": "sony-bravia-55-4k",
+    "companyId": "falabella",
+    "price": 2999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2999
+      }
+    ]
+  },
+  {
+    "productId": "samsung-neo-qled-55-4k",
+    "companyId": "falabella",
+    "price": 4499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4499
+      }
+    ]
+  },
+  {
+    "productId": "samsung-odyssey-g5-27",
+    "companyId": "falabella",
+    "price": 1199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1199
+      }
+    ]
+  },
+  {
+    "productId": "samsung-monitor-27-fhd",
+    "companyId": "falabella",
+    "price": 699,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 699
+      }
+    ]
+  },
+  {
+    "productId": "lg-ultragear-24",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "lg-ultrawide-29",
+    "companyId": "falabella",
+    "price": 1299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1299
+      }
+    ]
+  },
+  {
+    "productId": "asus-tuf-gaming-24",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "asus-proart-27",
+    "companyId": "falabella",
+    "price": 1999,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1999
+      }
+    ]
+  },
+  {
+    "productId": "aoc-24g2",
+    "companyId": "falabella",
+    "price": 799,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "productId": "viewsonic-22-fhd",
+    "companyId": "falabella",
+    "price": 499,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "productId": "anker-powercore-10000",
+    "companyId": "falabella",
+    "price": 149,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-power-bank-10000mah",
+    "companyId": "falabella",
+    "price": 99,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "productId": "samsung-ssd-t7-1tb",
+    "companyId": "falabella",
+    "price": 449,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "productId": "kingston-a400-480gb-ssd",
+    "companyId": "falabella",
+    "price": 159,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 159
+      }
+    ]
+  },
+  {
+    "productId": "sandisk-ultra-microsd-128gb",
+    "companyId": "falabella",
+    "price": 89,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 89
+      }
+    ]
+  },
+  {
+    "productId": "logitech-mx-master-3s",
+    "companyId": "falabella",
+    "price": 399,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 399
+      }
+    ]
+  },
+  {
+    "productId": "logitech-m170-mouse",
+    "companyId": "falabella",
+    "price": 59,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 59
+      }
+    ]
+  },
+  {
+    "productId": "redragon-kumara-teclado",
+    "companyId": "falabella",
+    "price": 149,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "tp-link-archer-ax23-router",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "logitech-c920-webcam",
+    "companyId": "falabella",
+    "price": 299,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "productId": "hyperx-cloud-stinger-2",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "anker-usb-c-hub-7-en-1",
+    "companyId": "falabella",
+    "price": 179,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 179
+      }
+    ]
+  },
+  {
+    "productId": "samsung-25w-usb-c",
+    "companyId": "falabella",
+    "price": 79,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 79
+      }
+    ]
+  },
+  {
+    "productId": "anker-65w-gan",
+    "companyId": "falabella",
+    "price": 149,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "belkin-30w-usb-c",
+    "companyId": "falabella",
+    "price": 99,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi-67w-cargador",
+    "companyId": "falabella",
+    "price": 119,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 119
+      }
+    ]
+  },
+  {
+    "productId": "ugreen-100w-gan",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "apple-magsafe-charger",
+    "companyId": "falabella",
+    "price": 199,
+    "specialPrice": null,
+    "link": null,
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "productId": "generico",
+    "companyId": "falabella",
+    "price": 79.9,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/125949868/Phone-Vintage-Retro-Celular-Smartphone-Tablet/125949869",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 79.9
+      }
+    ]
+  },
+  {
+    "productId": "alcatel",
+    "companyId": "falabella",
+    "price": 149,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/150192532/celular-alcatel-1v-2ram-16gb-negro-regalo/150192533",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "productId": "redmi",
+    "companyId": "falabella",
+    "price": 499,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/149035334/CELULAR-XIAOMI-REDMI-15C-4GB-RAM-128GB-ROM-NEGRO-OCASO/149035335",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 499
+      }
+    ]
+  },
+  {
+    "productId": "infinix",
+    "companyId": "falabella",
+    "price": 579.9,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/148165915/smartphone-infinix-hot-60i-44gb-de-ram-256gb-color-silver/148165916",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 579.9
+      }
+    ]
+  },
+  {
+    "productId": "vivo",
+    "companyId": "falabella",
+    "price": 429,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/146739144/Vivo-Y04-128GB-4GB-Crystal-Lavanda/146739145",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 429
+      }
+    ]
+  },
+  {
+    "productId": "xiaomi",
+    "companyId": "falabella",
+    "price": 449,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/147022162/Smartphone-POCO-C85-6GB-128GB-Negro-25078PC3EG/147022163",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 449
+      }
+    ]
+  },
+  {
+    "productId": "zte",
+    "companyId": "falabella",
+    "price": 420,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/144748498/Celular-ZTE-A54-8GB-RAM-128GB-Color-GRIS/144748499",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 420
+      }
+    ]
+  },
+  {
+    "productId": "honor",
+    "companyId": "falabella",
+    "price": 459,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/143500377/Honor-X5B-PLUS-4GB-256GB-50MP-PURPLE/143500378",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 459
+      }
+    ]
+  },
+  {
+    "productId": "motorola",
+    "companyId": "falabella",
+    "price": 899,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18410441/Celular-Moto-Edge-60-Fusion-8GB-+-256GB/20981828",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "productId": "samsung",
+    "companyId": "falabella",
+    "price": 2799,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18580750/Celular-Galaxy-S25-Fe-256gb-White/21241463",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2799
+      }
+    ]
+  },
+  {
+    "productId": "apple",
+    "companyId": "falabella",
+    "price": 5699,
+    "specialPrice": null,
+    "link": "https://www.falabella.com.pe/falabella-pe/product/prod18580271/iphone-17-pro-256gb/21283549",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 5699
+      }
+    ]
+  },
+  {
+    "productId": "vivo",
+    "companyId": "hiraoka",
+    "price": 1899,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/celular-vivo-v70-fe-6-83-256gb-8gb-ram-ocean-blue",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1899
+      }
+    ]
+  },
+  {
+    "productId": "dji",
+    "companyId": "hiraoka",
+    "price": 1099,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/estabilizador-dji-osmo-mobile-8p-advanced-tracking-combo",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 1099
+      }
+    ]
+  },
+  {
+    "productId": "huawei",
+    "companyId": "hiraoka",
+    "price": 4999,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/celular-huawei-mate-80-pro-6-75-512gb-16gb-ram-negro-cargador-100w",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 4999
+      }
+    ]
+  },
+  {
+    "productId": "honor",
+    "companyId": "hiraoka",
+    "price": 2099,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/celular-honor-600e-6-6-512gb-8gb-ram-gris-terciopelo-watch-2i",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 2099
+      }
+    ]
+  },
+  {
+    "productId": "oppo",
+    "companyId": "hiraoka",
+    "price": 599,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/celular-oppo-a6c-6-75-128gb-4gb-blanco",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 599
+      }
+    ]
+  },
+  {
+    "productId": "motorola",
+    "companyId": "hiraoka",
+    "price": 3599,
+    "specialPrice": null,
+    "link": "https://hiraoka.com.pe/celular-motorola-razr-70-6-9-512gb-12gb-ram-blanco",
+    "date": "2026-06-05",
+    "status": "Validado",
+    "estimate": false,
+    "verified": true,
+    "history": [
+      {
+        "date": "2026-06-05",
+        "price": 3599
+      }
+    ]
+  }
+]

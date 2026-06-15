@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos · Compara precios de tecnología | TECO</title>
+  <meta name="description" content="Catálogo de tecnología comparable entre las tiendas más grandes del Perú: smartphones, laptops, tablets, audífonos, consolas, televisores y más." />
+  <link rel="icon" href="img/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TECO" />
+  <meta property="og:title" content="Productos · Compara precios de tecnología | TECO" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <section class="section">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:18px">
+        <div><h2>Productos</h2><p class="muted">Tecnología comparable entre las tiendas más grandes del Perú.</p></div>
+        <button class="btn btn-ghost btn-sm filters-toggle" id="filters-toggle">Filtros</button>
+      </div>
+      <div class="catalog">
+        <aside class="filters" id="filters">
+          <button class="filters-close" id="filters-close" aria-label="Cerrar filtros">&times;</button>
+          <div class="filter-group">
+            <h4>Buscar</h4>
+            <input type="text" id="filter" placeholder="Nombre, marca o modelo…" />
+          </div>
+          <div class="filter-group">
+            <h4>Categoría</h4>
+            <div class="filter-list" id="f-cats"></div>
+          </div>
+          <div class="filter-group">
+            <h4>Marca</h4>
+            <div class="filter-list scroll" id="f-brands"></div>
+          </div>
+          <div class="filter-group">
+            <h4>Precio (S/)</h4>
+            <div class="price-inputs">
+              <input type="number" id="pmin" placeholder="Mín" min="0" />
+              <span>—</span>
+              <input type="number" id="pmax" placeholder="Máx" min="0" />
+            </div>
+          </div>
+          <button class="btn btn-ghost btn-sm btn-block" id="clear">Limpiar filtros</button>
+        </aside>
+        <div class="catalog-main">
+          <div class="catalog-bar">
+            <span class="pill" id="count"></span>
+            <select id="sort">
+              <option value="rel">Orden: relevancia</option>
+              <option value="price-asc">Precio: menor a mayor</option>
+              <option value="price-desc">Precio: mayor a menor</option>
+              <option value="name">Nombre A–Z</option>
+            </select>
+          </div>
+          <div class="grid grid-products" id="list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="site-footer"></div>
+  <script src="data.js"></script>
+  <script src="cards.js"></script>
+  <script src="nav.js"></script>
+  <script src="productos.js"></script>
+</body>
+</html>

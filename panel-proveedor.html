@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de proveedor · TECO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-proveedor.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>Panel de proveedor</h2><p class="muted">Publica y gestiona tus ofertas sobre los productos del comparador.</p></div>
+      </div>
+      <div class="compare-wrap">
+        <aside class="panel">
+          <div class="panel-title">Nueva oferta</div>
+          <form class="form" id="offer-form" style="max-width:100%">
+            <div class="field"><label>Proveedor</label><input id="o-prov" placeholder="Tu nombre comercial" /></div>
+            <div class="field"><label>Producto</label><select id="o-prod"></select></div>
+            <div class="grid-2">
+              <div class="field"><label>Precio (S/)</label><input id="o-price" type="number" step="0.01" /></div>
+              <div class="field"><label>Stock</label><input id="o-stock" placeholder="Ej.: 5" /></div>
+            </div>
+            <div class="grid-2">
+              <div class="field"><label>Garantía</label><input id="o-gar" placeholder="Ej.: 12 meses" /></div>
+              <div class="field"><label>Delivery</label><input id="o-del" placeholder="Ej.: 24-48h" /></div>
+            </div>
+            <div class="field"><label>WhatsApp</label><input id="o-wsp" placeholder="51999999999" /></div>
+            <button class="btn btn-primary btn-block" type="submit">Publicar oferta</button>
+            <div id="offer-msg"></div>
+          </form>
+        </aside>
+        <div>
+          <div class="panel-title" style="margin-bottom:14px">Mis ofertas publicadas</div>
+          <div class="table-wrap"><table id="offers-table">
+            <thead><tr><th>Producto</th><th>Precio</th><th>Stock</th><th>Estado</th><th></th></tr></thead>
+            <tbody></tbody>
+          </table></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="site-footer"></div>
+  <script src="data.js"></script>
+  <script src="auth.js"></script>
+  <script src="nav.js"></script>
+  <script src="panel-proveedor.js"></script>
+</body>
+</html>

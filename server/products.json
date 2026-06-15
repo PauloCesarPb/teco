@@ -1,0 +1,7816 @@
+[
+  {
+    "id": "iphone-16-128",
+    "name": "iPhone 16 128GB",
+    "model": "iPhone 16 / 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 16 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.1\" Super Retina XDR"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A18"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Conectividad",
+        "value": "5G / USB-C"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "16",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "pro",
+      "plus",
+      "16e",
+      "15",
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "cable",
+      "protector"
+    ],
+    "priceMin": 2400,
+    "priceMax": 5500
+  },
+  {
+    "id": "galaxy-s24-ultra-256",
+    "name": "Samsung Galaxy S24 Ultra 256GB",
+    "model": "S24 Ultra / 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S24 Ultra 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.8\" QHD+ 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "200 MP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "s24",
+      "ultra",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "fe",
+      "s25",
+      "s23",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2900,
+    "priceMax": 8000
+  },
+  {
+    "id": "jbl-wave-buds",
+    "name": "JBL Wave Buds",
+    "model": "Wave Buds",
+    "category": "Audífonos",
+    "brand": "JBL",
+    "searchTerm": "JBL Wave Buds",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "True Wireless"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth 5.2"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 32 h"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "jbl",
+      "wave",
+      "buds"
+    ],
+    "rejectTerms": [
+      "cable",
+      "usado",
+      "reacondicionado",
+      "funda",
+      "case",
+      "pro"
+    ],
+    "priceMin": 50,
+    "priceMax": 500
+  },
+  {
+    "id": "redmi-buds-4-active",
+    "name": "Redmi Buds 4 Active",
+    "model": "Buds 4 Active",
+    "category": "Audífonos",
+    "brand": "Xiaomi",
+    "searchTerm": "Redmi Buds 4 Active",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "True Wireless"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 28 h"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "redmi",
+      "buds",
+      "active"
+    ],
+    "rejectTerms": [
+      "cable",
+      "usado",
+      "reacondicionado",
+      "funda",
+      "case",
+      "pro"
+    ],
+    "priceMin": 40,
+    "priceMax": 300
+  },
+  {
+    "id": "powerbank-xiaomi-20000",
+    "name": "Power Bank Xiaomi 20000mAh",
+    "model": "20000mAh",
+    "category": "Accesorios",
+    "brand": "Xiaomi",
+    "searchTerm": "Power Bank Xiaomi 20000mAh",
+    "specs": [
+      {
+        "label": "Capacidad",
+        "value": "20000 mAh"
+      },
+      {
+        "label": "Potencia",
+        "value": "18W"
+      },
+      {
+        "label": "Puertos",
+        "value": "USB-C / USB-A"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "20000"
+    ],
+    "rejectTerms": [
+      "10000",
+      "5000",
+      "cable",
+      "usado",
+      "reacondicionado"
+    ],
+    "priceMin": 60,
+    "priceMax": 350
+  },
+  {
+    "id": "cargador-apple-20w",
+    "name": "Cargador Apple 20W USB-C",
+    "model": "20W USB-C",
+    "category": "Cargadores",
+    "brand": "Apple",
+    "searchTerm": "Cargador Apple 20W USB-C",
+    "specs": [
+      {
+        "label": "Potencia",
+        "value": "20W"
+      },
+      {
+        "label": "Puerto",
+        "value": "USB-C"
+      },
+      {
+        "label": "Compatibilidad",
+        "value": "Smartphone / Tablet"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "20w",
+      "usb"
+    ],
+    "rejectTerms": [
+      "cable",
+      "usado",
+      "reacondicionado",
+      "10w",
+      "5w"
+    ],
+    "priceMin": 30,
+    "priceMax": 250
+  },
+  {
+    "id": "ipad-a16-128-wifi",
+    "name": "iPad A16 128GB Wi-Fi",
+    "model": "A16 / 128GB / Wi-Fi",
+    "category": "Tablets",
+    "brand": "Apple",
+    "searchTerm": "iPad A16 128GB Wi-Fi",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "11 pulgadas"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Wi-Fi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "ipad",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "usado",
+      "reacondicionado",
+      "funda",
+      "case",
+      "mica",
+      "lapiz",
+      "pro",
+      "air"
+    ],
+    "priceMin": 1000,
+    "priceMax": 4000
+  },
+  {
+    "id": "lenovo-ideapad-slim3-16-512",
+    "name": "Lenovo IdeaPad Slim 3 16GB 512GB",
+    "model": "IdeaPad Slim 3 / 16GB / 512GB",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo IdeaPad Slim 3 16GB 512GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6 pulgadas"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "16gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "usado",
+      "reacondicionado",
+      "funda",
+      "mouse",
+      "cargador"
+    ],
+    "priceMin": 1200,
+    "priceMax": 6000
+  },
+  {
+    "id": "iphone-15-128",
+    "name": "iPhone 15 128GB",
+    "model": "iPhone 15 / 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 15 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.1\" Super Retina XDR"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A16"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Conectividad",
+        "value": "5G / USB-C"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "15",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "pro",
+      "plus",
+      "16",
+      "14",
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "cable",
+      "protector"
+    ],
+    "priceMin": 2500,
+    "priceMax": 5000
+  },
+  {
+    "id": "galaxy-a55-256",
+    "name": "Samsung Galaxy A55 256GB",
+    "model": "Galaxy A55 / 8GB / 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A55 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.6\" Super AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "8GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "50 MP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "a55",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "a56",
+      "a54",
+      "a35",
+      "reacondicionado",
+      "usado",
+      "open box",
+      "cargador",
+      "adaptador",
+      "case",
+      "mica",
+      "funda"
+    ],
+    "priceMin": 1000,
+    "priceMax": 2200
+  },
+  {
+    "id": "airpods-pro-2",
+    "name": "AirPods Pro 2 USB-C",
+    "model": "AirPods Pro (2da gen) USB-C",
+    "category": "Audífonos",
+    "brand": "Apple",
+    "searchTerm": "AirPods Pro 2 USB-C",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "In-ear ANC"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple H2"
+      },
+      {
+        "label": "Carga",
+        "value": "USB-C / MagSafe"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 30 h (estuche)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "airpods",
+      "pro"
+    ],
+    "rejectTerms": [
+      "1ra",
+      "3ra",
+      "4",
+      "beats",
+      "max",
+      "reacondicionado",
+      "usado",
+      "open box",
+      "funda",
+      "case"
+    ],
+    "priceMin": 600,
+    "priceMax": 1200
+  },
+  {
+    "id": "ps5-slim-disc",
+    "name": "PlayStation 5 Slim",
+    "model": "PS5 Slim con lectora",
+    "category": "Consolas",
+    "brand": "Sony",
+    "searchTerm": "PlayStation 5 Slim con lectora de discos",
+    "specs": [
+      {
+        "label": "Modelo",
+        "value": "Slim con lectora"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "Resolución",
+        "value": "Hasta 4K 120Hz"
+      },
+      {
+        "label": "Mando",
+        "value": "DualSense"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "playstation",
+      "5",
+      "slim"
+    ],
+    "rejectTerms": [
+      "digital",
+      "pro",
+      "reacondicionado",
+      "usado",
+      "open box",
+      "mando",
+      "control",
+      "funda"
+    ],
+    "priceMin": 1800,
+    "priceMax": 3000
+  },
+  {
+    "id": "xiaomi-smart-band-9",
+    "name": "Xiaomi Smart Band 9",
+    "model": "Smart Band 9",
+    "category": "Wearables",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Smart Band 9",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "1.62\" AMOLED"
+      },
+      {
+        "label": "Salud",
+        "value": "Ritmo cardíaco / SpO₂"
+      },
+      {
+        "label": "Deportes",
+        "value": "150+ modos"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 21 días"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "band",
+      "9"
+    ],
+    "rejectTerms": [
+      "pro",
+      "active",
+      "8",
+      "10",
+      "reacondicionado",
+      "usado",
+      "correa",
+      "case"
+    ],
+    "priceMin": 150,
+    "priceMax": 400
+  },
+  {
+    "id": "iphone-16-pro-256",
+    "name": "iPhone 16 Pro 256GB",
+    "model": "iPhone 16 Pro / 256GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 16 Pro 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.3\" ProMotion 120Hz"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A18 Pro"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "16",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "max",
+      "128gb",
+      "15",
+      "reacondicionado",
+      "usado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 4500,
+    "priceMax": 9000
+  },
+  {
+    "id": "iphone-15-pro-256",
+    "name": "iPhone 15 Pro 256GB",
+    "model": "iPhone 15 Pro / 256GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 15 Pro 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.1\" ProMotion 120Hz"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A17 Pro"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "15",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "max",
+      "16",
+      "128gb",
+      "reacondicionado",
+      "usado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 3500,
+    "priceMax": 7000
+  },
+  {
+    "id": "galaxy-s24-256",
+    "name": "Samsung Galaxy S24 256GB",
+    "model": "Galaxy S24 / 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S24 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.2\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "8GB"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "s24",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "ultra",
+      "plus",
+      "fe",
+      "s23",
+      "s25",
+      "reacondicionado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 2500,
+    "priceMax": 5000
+  },
+  {
+    "id": "galaxy-a35-256",
+    "name": "Samsung Galaxy A35 256GB",
+    "model": "Galaxy A35 / 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A35 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.6\" Super AMOLED"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "8GB"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "a35",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "a55",
+      "a34",
+      "a36",
+      "reacondicionado",
+      "cargador",
+      "adaptador",
+      "case"
+    ],
+    "priceMin": 800,
+    "priceMax": 1800
+  },
+  {
+    "id": "redmi-note-13-pro-256",
+    "name": "Xiaomi Redmi Note 13 Pro 256GB",
+    "model": "Redmi Note 13 Pro / 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi Note 13 Pro 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.67\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "200 MP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "redmi",
+      "note",
+      "13",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "plus",
+      "note 12",
+      "note 14",
+      "reacondicionado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 900,
+    "priceMax": 1900
+  },
+  {
+    "id": "xiaomi-14-256",
+    "name": "Xiaomi 14 256GB",
+    "model": "Xiaomi 14 / 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi 14 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.36\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "Leica 50 MP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "14",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "ultra",
+      "pro",
+      "redmi",
+      "13",
+      "15",
+      "reacondicionado",
+      "funda"
+    ],
+    "priceMin": 2500,
+    "priceMax": 4800
+  },
+  {
+    "id": "macbook-air-m3-256",
+    "name": "MacBook Air M3 13\" 256GB",
+    "model": "MacBook Air M3 / 13\" / 256GB",
+    "category": "Laptops",
+    "brand": "Apple",
+    "searchTerm": "MacBook Air M3 13 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "13.6\" Liquid Retina"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple M3"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB SSD"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "macbook",
+      "air",
+      "m3"
+    ],
+    "rejectTerms": [
+      "m2",
+      "m1",
+      "pro",
+      "15",
+      "reacondicionado"
+    ],
+    "priceMin": 4500,
+    "priceMax": 8000
+  },
+  {
+    "id": "hp-15-i5-512",
+    "name": "HP 15 Core i5 16GB 512GB",
+    "model": "HP 15 / i5 / 16GB / 512GB",
+    "category": "Laptops",
+    "brand": "HP",
+    "searchTerm": "HP 15 Core i5 16GB 512GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hp",
+      "i5",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "i3",
+      "i7",
+      "256gb",
+      "reacondicionado",
+      "mouse"
+    ],
+    "priceMin": 1800,
+    "priceMax": 4000
+  },
+  {
+    "id": "asus-vivobook-15-i5",
+    "name": "Asus Vivobook 15 Core i5 16GB 512GB",
+    "model": "Vivobook 15 / i5 / 16GB / 512GB",
+    "category": "Laptops",
+    "brand": "Asus",
+    "searchTerm": "Asus Vivobook 15 Core i5 16GB 512GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "vivobook",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "pro",
+      "rog",
+      "tuf",
+      "256gb",
+      "reacondicionado"
+    ],
+    "priceMin": 1800,
+    "priceMax": 4000
+  },
+  {
+    "id": "ipad-air-m2-128",
+    "name": "iPad Air 11\" M2 128GB",
+    "model": "iPad Air M2 / 11\" / 128GB",
+    "category": "Tablets",
+    "brand": "Apple",
+    "searchTerm": "iPad Air 11 M2 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "11\" Liquid Retina"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple M2"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "ipad",
+      "air",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "pro",
+      "mini",
+      "a16",
+      "reacondicionado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 2500,
+    "priceMax": 5000
+  },
+  {
+    "id": "galaxy-tab-s9-fe",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "model": "Galaxy Tab S9 FE / 128GB",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Tab S9 FE 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "10.9\" 90Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Lápiz",
+        "value": "S Pen incluido"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "tab",
+      "s9",
+      "fe"
+    ],
+    "rejectTerms": [
+      "plus",
+      "ultra",
+      "a9",
+      "reacondicionado",
+      "funda"
+    ],
+    "priceMin": 1500,
+    "priceMax": 3500
+  },
+  {
+    "id": "sony-wh-1000xm5",
+    "name": "Sony WH-1000XM5",
+    "model": "WH-1000XM5",
+    "category": "Audífonos",
+    "brand": "Sony",
+    "searchTerm": "Sony WH-1000XM5",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Over-ear ANC"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 30 h"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth multipunto"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "1000xm5"
+    ],
+    "rejectTerms": [
+      "xm4",
+      "xm3",
+      "reacondicionado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 1000,
+    "priceMax": 2200
+  },
+  {
+    "id": "airpods-4",
+    "name": "AirPods 4",
+    "model": "AirPods (4ta gen)",
+    "category": "Audífonos",
+    "brand": "Apple",
+    "searchTerm": "AirPods 4",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Semi in-ear"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple H2"
+      },
+      {
+        "label": "Carga",
+        "value": "USB-C"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "airpods",
+      "4"
+    ],
+    "rejectTerms": [
+      "pro",
+      "3ra",
+      "max",
+      "reacondicionado",
+      "funda",
+      "case"
+    ],
+    "priceMin": 450,
+    "priceMax": 1100
+  },
+  {
+    "id": "apple-watch-se-2",
+    "name": "Apple Watch SE (2da gen)",
+    "model": "Watch SE 2 / 44mm",
+    "category": "Wearables",
+    "brand": "Apple",
+    "searchTerm": "Apple Watch SE 2 44mm",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "Retina"
+      },
+      {
+        "label": "GPS",
+        "value": "Sí"
+      },
+      {
+        "label": "Salud",
+        "value": "Ritmo cardíaco"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "apple",
+      "watch",
+      "se"
+    ],
+    "rejectTerms": [
+      "series",
+      "ultra",
+      "reacondicionado",
+      "correa"
+    ],
+    "priceMin": 900,
+    "priceMax": 1800
+  },
+  {
+    "id": "galaxy-watch-7",
+    "name": "Samsung Galaxy Watch 7",
+    "model": "Galaxy Watch 7 / 44mm",
+    "category": "Wearables",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Watch 7 44mm",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "AMOLED"
+      },
+      {
+        "label": "Salud",
+        "value": "ECG / SpO₂"
+      },
+      {
+        "label": "GPS",
+        "value": "Sí"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "watch",
+      "7"
+    ],
+    "rejectTerms": [
+      "ultra",
+      "classic",
+      "5",
+      "6",
+      "fe",
+      "reacondicionado",
+      "correa"
+    ],
+    "priceMin": 900,
+    "priceMax": 2000
+  },
+  {
+    "id": "xbox-series-s",
+    "name": "Xbox Series S",
+    "model": "Series S / 512GB",
+    "category": "Consolas",
+    "brand": "Microsoft",
+    "searchTerm": "Xbox Series S 512GB",
+    "specs": [
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      },
+      {
+        "label": "Resolución",
+        "value": "Hasta 1440p"
+      },
+      {
+        "label": "FPS",
+        "value": "Hasta 120 FPS"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xbox",
+      "series",
+      "s"
+    ],
+    "rejectTerms": [
+      "series x",
+      "reacondicionado",
+      "control",
+      "mando",
+      "juego"
+    ],
+    "priceMin": 1300,
+    "priceMax": 2500
+  },
+  {
+    "id": "nintendo-switch-oled",
+    "name": "Nintendo Switch OLED",
+    "model": "Switch OLED",
+    "category": "Consolas",
+    "brand": "Nintendo",
+    "searchTerm": "Nintendo Switch OLED",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "7\" OLED"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "64GB"
+      },
+      {
+        "label": "Modo",
+        "value": "TV / Portátil"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "nintendo",
+      "switch",
+      "oled"
+    ],
+    "rejectTerms": [
+      "lite",
+      "2",
+      "reacondicionado",
+      "juego",
+      "funda"
+    ],
+    "priceMin": 1300,
+    "priceMax": 2500
+  },
+  {
+    "id": "samsung-tv-50-cu",
+    "name": "Samsung Smart TV 50\" Crystal UHD 4K",
+    "model": "50\" Crystal UHD 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Smart TV 50 Crystal UHD 4K",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "50\" 4K UHD"
+      },
+      {
+        "label": "Sistema",
+        "value": "Tizen"
+      },
+      {
+        "label": "HDR",
+        "value": "HDR10+"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "50",
+      "uhd"
+    ],
+    "rejectTerms": [
+      "55",
+      "43",
+      "65",
+      "oled",
+      "reacondicionado"
+    ],
+    "priceMin": 1300,
+    "priceMax": 2800
+  },
+  {
+    "id": "lg-tv-55-uhd",
+    "name": "LG Smart TV 55\" 4K UHD",
+    "model": "55\" 4K UHD",
+    "category": "Televisores",
+    "brand": "LG",
+    "searchTerm": "LG Smart TV 55 4K UHD",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "55\" 4K UHD"
+      },
+      {
+        "label": "Sistema",
+        "value": "webOS"
+      },
+      {
+        "label": "HDR",
+        "value": "HDR10"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "55",
+      "uhd"
+    ],
+    "rejectTerms": [
+      "50",
+      "65",
+      "oled",
+      "reacondicionado"
+    ],
+    "priceMin": 1500,
+    "priceMax": 3500
+  },
+  {
+    "id": "iphone-17-256",
+    "name": "iPhone 17 256GB",
+    "model": "iPhone 17 256GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 17 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.3\" 120Hz"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A19"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "17",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pro",
+      "plus",
+      "air",
+      "16",
+      "funda",
+      "case"
+    ],
+    "priceMin": 2579,
+    "priceMax": 7308
+  },
+  {
+    "id": "iphone-16-plus-128",
+    "name": "iPhone 16 Plus 128GB",
+    "model": "iPhone 16 Plus 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 16 Plus 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.7\" Super Retina XDR"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A18"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "16",
+      "plus",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pro",
+      "15",
+      "funda",
+      "case"
+    ],
+    "priceMin": 2219,
+    "priceMax": 6288
+  },
+  {
+    "id": "galaxy-s25-256",
+    "name": "Samsung Galaxy S25 256GB",
+    "model": "Samsung Galaxy S25 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S25 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.2\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "s25",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "ultra",
+      "plus",
+      "s24",
+      "fe",
+      "edge",
+      "funda"
+    ],
+    "priceMin": 2099,
+    "priceMax": 5948
+  },
+  {
+    "id": "galaxy-s25-ultra-256",
+    "name": "Samsung Galaxy S25 Ultra 256GB",
+    "model": "Samsung Galaxy S25 Ultra 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S25 Ultra 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.9\" QHD+ 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "200 MP"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "s25",
+      "ultra",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "s24",
+      "plus",
+      "funda",
+      "case"
+    ],
+    "priceMin": 3299,
+    "priceMax": 9348
+  },
+  {
+    "id": "galaxy-a16-128",
+    "name": "Samsung Galaxy A16 128GB",
+    "model": "Samsung Galaxy A16 128GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A16 128GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.7\" Super AMOLED"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Batería",
+        "value": "5000 mAh"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "a16",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "a15",
+      "a17",
+      "a26",
+      "cargador",
+      "adaptador",
+      "funda"
+    ],
+    "priceMin": 419,
+    "priceMax": 1188
+  },
+  {
+    "id": "redmi-note-14-pro-256",
+    "name": "Xiaomi Redmi Note 14 Pro 256GB",
+    "model": "Xiaomi Redmi Note 14 Pro 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi Note 14 Pro 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.67\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "200 MP"
+      }
+    ],
+    "requiredTerms": [
+      "redmi",
+      "note",
+      "14",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "plus",
+      "note 13",
+      "funda"
+    ],
+    "priceMin": 719,
+    "priceMax": 2038
+  },
+  {
+    "id": "poco-x6-pro-256",
+    "name": "Xiaomi Poco X6 Pro 256GB",
+    "model": "Xiaomi Poco X6 Pro 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Poco X6 Pro 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.67\" AMOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Chip",
+        "value": "Dimensity 8300"
+      }
+    ],
+    "requiredTerms": [
+      "poco",
+      "x6",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "x5",
+      "x7",
+      "funda"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "motorola-moto-g84-256",
+    "name": "Motorola Moto G84 256GB",
+    "model": "Motorola Moto G84 256GB",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "searchTerm": "Motorola Moto G84 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.55\" pOLED 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      }
+    ],
+    "requiredTerms": [
+      "motorola",
+      "g84"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "g85",
+      "g54",
+      "edge",
+      "funda"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "honor-x8b-256",
+    "name": "Honor X8b 256GB",
+    "model": "Honor X8b 256GB",
+    "category": "Smartphones",
+    "brand": "Honor",
+    "searchTerm": "Honor X8b 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "6.7\" AMOLED 90Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Cámara",
+        "value": "108 MP"
+      }
+    ],
+    "requiredTerms": [
+      "honor",
+      "x8b"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "x9",
+      "x7",
+      "funda"
+    ],
+    "priceMin": 479,
+    "priceMax": 1358
+  },
+  {
+    "id": "macbook-air-m2-256",
+    "name": "MacBook Air M2 13\" 256GB",
+    "model": "MacBook Air M2 13\" 256GB",
+    "category": "Laptops",
+    "brand": "Apple",
+    "searchTerm": "MacBook Air M2 13\" 256GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "13.6\" Liquid Retina"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple M2"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "macbook",
+      "air",
+      "m2"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "m3",
+      "m1",
+      "pro",
+      "15"
+    ],
+    "priceMin": 2339,
+    "priceMax": 6628
+  },
+  {
+    "id": "macbook-pro-14-m4",
+    "name": "MacBook Pro 14\" M4",
+    "model": "MacBook Pro 14\" M4",
+    "category": "Laptops",
+    "brand": "Apple",
+    "searchTerm": "MacBook Pro 14\" M4",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "14\" Liquid Retina XDR"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple M4"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "macbook",
+      "pro",
+      "14",
+      "m4"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "m3",
+      "m2",
+      "air",
+      "16"
+    ],
+    "priceMin": 5099,
+    "priceMax": 14448
+  },
+  {
+    "id": "hp-victus-15-rtx2050",
+    "name": "HP Victus 15 RTX 2050",
+    "model": "HP Victus 15 RTX 2050",
+    "category": "Laptops",
+    "brand": "HP",
+    "searchTerm": "HP Victus 15 RTX 2050",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD 144Hz"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 2050"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "hp",
+      "victus"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "omen",
+      "pavilion"
+    ],
+    "priceMin": 2099,
+    "priceMax": 5948
+  },
+  {
+    "id": "lenovo-loq-15-rtx4050",
+    "name": "Lenovo LOQ 15 RTX 4050",
+    "model": "Lenovo LOQ 15 RTX 4050",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo LOQ 15 RTX 4050",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD 144Hz"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4050"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "loq"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "legion",
+      "ideapad"
+    ],
+    "priceMin": 2579,
+    "priceMax": 7308
+  },
+  {
+    "id": "asus-tuf-gaming-a15",
+    "name": "Asus TUF Gaming A15",
+    "model": "Asus TUF Gaming A15",
+    "category": "Laptops",
+    "brand": "Asus",
+    "searchTerm": "Asus TUF Gaming A15",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD 144Hz"
+      },
+      {
+        "label": "GPU",
+        "value": "RTX 4060"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "tuf"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "rog",
+      "vivobook"
+    ],
+    "priceMin": 2399,
+    "priceMax": 6798
+  },
+  {
+    "id": "acer-aspire-3-i5-512",
+    "name": "Acer Aspire 3 i5 512GB",
+    "model": "Acer Aspire 3 i5 512GB",
+    "category": "Laptops",
+    "brand": "Acer",
+    "searchTerm": "Acer Aspire 3 i5 512GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "15.6\" FHD"
+      },
+      {
+        "label": "RAM",
+        "value": "16GB"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "512GB SSD"
+      }
+    ],
+    "requiredTerms": [
+      "acer",
+      "aspire",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "nitro",
+      "predator"
+    ],
+    "priceMin": 1139,
+    "priceMax": 3228
+  },
+  {
+    "id": "ipad-10-64",
+    "name": "iPad 10ma gen 64GB",
+    "model": "iPad 10ma gen 64GB",
+    "category": "Tablets",
+    "brand": "Apple",
+    "searchTerm": "iPad 10ma gen 64GB",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "10.9\" Liquid Retina"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple A14"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "64GB"
+      }
+    ],
+    "requiredTerms": [
+      "ipad",
+      "64gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pro",
+      "air",
+      "mini",
+      "a16",
+      "128gb",
+      "funda"
+    ],
+    "priceMin": 1079,
+    "priceMax": 3058
+  },
+  {
+    "id": "galaxy-tab-a9-plus",
+    "name": "Samsung Galaxy Tab A9+",
+    "model": "Samsung Galaxy Tab A9+",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Tab A9+",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "11\" 90Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "64GB"
+      },
+      {
+        "label": "Batería",
+        "value": "7040 mAh"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "tab",
+      "a9"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "s9",
+      "s8",
+      "funda"
+    ],
+    "priceMin": 599,
+    "priceMax": 1698
+  },
+  {
+    "id": "xiaomi-pad-6",
+    "name": "Xiaomi Pad 6",
+    "model": "Xiaomi Pad 6",
+    "category": "Tablets",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Pad 6",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "11\" 144Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "128GB"
+      },
+      {
+        "label": "Chip",
+        "value": "Snapdragon 870"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "pad",
+      "6"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pad 5",
+      "pro",
+      "funda"
+    ],
+    "priceMin": 899,
+    "priceMax": 2548
+  },
+  {
+    "id": "airpods-max",
+    "name": "AirPods Max",
+    "model": "AirPods Max",
+    "category": "Audífonos",
+    "brand": "Apple",
+    "searchTerm": "AirPods Max",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Over-ear ANC"
+      },
+      {
+        "label": "Chip",
+        "value": "Apple H1"
+      },
+      {
+        "label": "Carga",
+        "value": "USB-C"
+      }
+    ],
+    "requiredTerms": [
+      "airpods",
+      "max"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pro",
+      "2",
+      "3",
+      "funda"
+    ],
+    "priceMin": 1379,
+    "priceMax": 3908
+  },
+  {
+    "id": "jbl-tune-520bt",
+    "name": "JBL Tune 520BT",
+    "model": "JBL Tune 520BT",
+    "category": "Audífonos",
+    "brand": "JBL",
+    "searchTerm": "JBL Tune 520BT",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "On-ear inalámbrico"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 57 h"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth 5.3"
+      }
+    ],
+    "requiredTerms": [
+      "jbl",
+      "tune",
+      "520bt"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "510",
+      "720",
+      "funda"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "sony-wh-ch520",
+    "name": "Sony WH-CH520",
+    "model": "Sony WH-CH520",
+    "category": "Audífonos",
+    "brand": "Sony",
+    "searchTerm": "Sony WH-CH520",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "On-ear inalámbrico"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 50 h"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth 5.2"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "ch520"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "xm5",
+      "xm4",
+      "funda"
+    ],
+    "priceMin": 149,
+    "priceMax": 423
+  },
+  {
+    "id": "samsung-galaxy-buds-fe",
+    "name": "Samsung Galaxy Buds FE",
+    "model": "Samsung Galaxy Buds FE",
+    "category": "Audífonos",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Buds FE",
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "In-ear ANC"
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 30 h"
+      },
+      {
+        "label": "Conectividad",
+        "value": "Bluetooth 5.2"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "buds",
+      "fe"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "pro",
+      "2",
+      "3",
+      "funda"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "apple-watch-series-10",
+    "name": "Apple Watch Series 10",
+    "model": "Apple Watch Series 10",
+    "category": "Wearables",
+    "brand": "Apple",
+    "searchTerm": "Apple Watch Series 10",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "LTPO OLED"
+      },
+      {
+        "label": "Salud",
+        "value": "ECG / SpO₂"
+      },
+      {
+        "label": "GPS",
+        "value": "Sí"
+      }
+    ],
+    "requiredTerms": [
+      "apple",
+      "watch",
+      "series",
+      "10"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "se",
+      "ultra",
+      "9",
+      "correa"
+    ],
+    "priceMin": 1139,
+    "priceMax": 3228
+  },
+  {
+    "id": "galaxy-watch-ultra",
+    "name": "Samsung Galaxy Watch Ultra",
+    "model": "Samsung Galaxy Watch Ultra",
+    "category": "Wearables",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Watch Ultra",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "1.5\" AMOLED"
+      },
+      {
+        "label": "Resistencia",
+        "value": "10ATM"
+      },
+      {
+        "label": "GPS",
+        "value": "Doble frecuencia"
+      }
+    ],
+    "requiredTerms": [
+      "galaxy",
+      "watch",
+      "ultra"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "7",
+      "classic",
+      "correa"
+    ],
+    "priceMin": 1799,
+    "priceMax": 5098
+  },
+  {
+    "id": "amazfit-bip-5",
+    "name": "Amazfit Bip 5",
+    "model": "Amazfit Bip 5",
+    "category": "Wearables",
+    "brand": "Amazfit",
+    "searchTerm": "Amazfit Bip 5",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "1.91\""
+      },
+      {
+        "label": "Autonomía",
+        "value": "Hasta 10 días"
+      },
+      {
+        "label": "GPS",
+        "value": "Sí"
+      }
+    ],
+    "requiredTerms": [
+      "amazfit",
+      "bip",
+      "5"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "bip 3",
+      "active",
+      "pro",
+      "correa"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "ps5-pro",
+    "name": "PlayStation 5 Pro",
+    "model": "PlayStation 5 Pro",
+    "category": "Consolas",
+    "brand": "Sony",
+    "searchTerm": "PlayStation 5 Pro",
+    "specs": [
+      {
+        "label": "Almacenamiento",
+        "value": "2TB SSD"
+      },
+      {
+        "label": "Resolución",
+        "value": "4K 120Hz"
+      },
+      {
+        "label": "GPU",
+        "value": "Ray tracing avanzado"
+      }
+    ],
+    "requiredTerms": [
+      "playstation",
+      "5",
+      "pro"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "slim",
+      "digital",
+      "mando",
+      "control"
+    ],
+    "priceMin": 2399,
+    "priceMax": 6798
+  },
+  {
+    "id": "xbox-series-x",
+    "name": "Xbox Series X",
+    "model": "Xbox Series X",
+    "category": "Consolas",
+    "brand": "Microsoft",
+    "searchTerm": "Xbox Series X",
+    "specs": [
+      {
+        "label": "Almacenamiento",
+        "value": "1TB SSD"
+      },
+      {
+        "label": "Resolución",
+        "value": "4K 120Hz"
+      },
+      {
+        "label": "Lectora",
+        "value": "Blu-ray UHD"
+      }
+    ],
+    "requiredTerms": [
+      "xbox",
+      "series",
+      "x"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "series s",
+      "mando",
+      "control"
+    ],
+    "priceMin": 1679,
+    "priceMax": 4758
+  },
+  {
+    "id": "nintendo-switch-2",
+    "name": "Nintendo Switch 2",
+    "model": "Nintendo Switch 2",
+    "category": "Consolas",
+    "brand": "Nintendo",
+    "searchTerm": "Nintendo Switch 2",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "7.9\" 120Hz"
+      },
+      {
+        "label": "Almacenamiento",
+        "value": "256GB"
+      },
+      {
+        "label": "Modo",
+        "value": "TV / Portátil"
+      }
+    ],
+    "requiredTerms": [
+      "nintendo",
+      "switch",
+      "2"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "oled",
+      "lite",
+      "juego"
+    ],
+    "priceMin": 1679,
+    "priceMax": 4758
+  },
+  {
+    "id": "samsung-tv-55-cu",
+    "name": "Samsung Smart TV 55\" Crystal UHD 4K",
+    "model": "Samsung Smart TV 55\" Crystal UHD 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Smart TV 55\" Crystal UHD 4K",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "55\" 4K UHD"
+      },
+      {
+        "label": "Sistema",
+        "value": "Tizen"
+      },
+      {
+        "label": "HDR",
+        "value": "HDR10+"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "55",
+      "uhd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "50",
+      "65",
+      "oled"
+    ],
+    "priceMin": 1139,
+    "priceMax": 3228
+  },
+  {
+    "id": "lg-oled-55-c4",
+    "name": "LG OLED evo 55\" C4 4K",
+    "model": "LG OLED evo 55\" C4 4K",
+    "category": "Televisores",
+    "brand": "LG",
+    "searchTerm": "LG OLED evo 55\" C4 4K",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "55\" OLED evo 4K"
+      },
+      {
+        "label": "Sistema",
+        "value": "webOS"
+      },
+      {
+        "label": "Refresco",
+        "value": "120Hz"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "oled",
+      "55"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "50",
+      "65",
+      "uhd",
+      "c3"
+    ],
+    "priceMin": 2999,
+    "priceMax": 8498
+  },
+  {
+    "id": "tcl-tv-50-qled",
+    "name": "TCL Smart TV 50\" QLED 4K",
+    "model": "TCL Smart TV 50\" QLED 4K",
+    "category": "Televisores",
+    "brand": "TCL",
+    "searchTerm": "TCL Smart TV 50\" QLED 4K",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "50\" QLED 4K"
+      },
+      {
+        "label": "Sistema",
+        "value": "Google TV"
+      },
+      {
+        "label": "HDR",
+        "value": "Dolby Vision"
+      }
+    ],
+    "requiredTerms": [
+      "tcl",
+      "50",
+      "qled"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "55",
+      "65"
+    ],
+    "priceMin": 899,
+    "priceMax": 2548
+  },
+  {
+    "id": "samsung-monitor-24-fhd",
+    "name": "Monitor Samsung 24\" FHD",
+    "model": "Monitor Samsung 24\" FHD",
+    "category": "Monitores",
+    "brand": "Samsung",
+    "searchTerm": "Monitor Samsung 24\" FHD",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "24\" FHD"
+      },
+      {
+        "label": "Refresco",
+        "value": "75Hz"
+      },
+      {
+        "label": "Panel",
+        "value": "IPS"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "monitor",
+      "24"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "27",
+      "32",
+      "curvo"
+    ],
+    "priceMin": 359,
+    "priceMax": 1018
+  },
+  {
+    "id": "lg-monitor-27-ultragear",
+    "name": "Monitor LG UltraGear 27\"",
+    "model": "Monitor LG UltraGear 27\"",
+    "category": "Monitores",
+    "brand": "LG",
+    "searchTerm": "Monitor LG UltraGear 27\"",
+    "specs": [
+      {
+        "label": "Pantalla",
+        "value": "27\" QHD"
+      },
+      {
+        "label": "Refresco",
+        "value": "165Hz"
+      },
+      {
+        "label": "Panel",
+        "value": "IPS 1ms"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "ultragear",
+      "27"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "24",
+      "32"
+    ],
+    "priceMin": 779,
+    "priceMax": 2208
+  },
+  {
+    "id": "iphone-16e-128gb",
+    "name": "iPhone 16e 128GB",
+    "model": "iPhone 16e 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 16e 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "16e",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1739,
+    "priceMax": 4928
+  },
+  {
+    "id": "iphone-16-pro-max-256gb",
+    "name": "iPhone 16 Pro Max 256GB",
+    "model": "iPhone 16 Pro Max 256GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 16 Pro Max 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "16",
+      "pro",
+      "max",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 3599,
+    "priceMax": 10198
+  },
+  {
+    "id": "iphone-14-128gb",
+    "name": "iPhone 14 128GB",
+    "model": "iPhone 14 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 14 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "14",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1499,
+    "priceMax": 4248
+  },
+  {
+    "id": "iphone-13-128gb",
+    "name": "iPhone 13 128GB",
+    "model": "iPhone 13 128GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone 13 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "13",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1319,
+    "priceMax": 3738
+  },
+  {
+    "id": "iphone-se-2022-64gb",
+    "name": "iPhone SE 2022 64GB",
+    "model": "iPhone SE 2022 64GB",
+    "category": "Smartphones",
+    "brand": "Apple",
+    "searchTerm": "iPhone SE 2022 64GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "iphone",
+      "se",
+      "2022",
+      "64gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 959,
+    "priceMax": 2718
+  },
+  {
+    "id": "samsung-galaxy-s24-fe-256gb",
+    "name": "Samsung Galaxy S24 FE 256GB",
+    "model": "Samsung Galaxy S24 FE 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S24 FE 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "s24",
+      "fe",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1499,
+    "priceMax": 4248
+  },
+  {
+    "id": "samsung-galaxy-s23-ultra-256gb",
+    "name": "Samsung Galaxy S23 Ultra 256GB",
+    "model": "Samsung Galaxy S23 Ultra 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S23 Ultra 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "s23",
+      "ultra",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2399,
+    "priceMax": 6798
+  },
+  {
+    "id": "samsung-galaxy-s23-fe-256gb",
+    "name": "Samsung Galaxy S23 FE 256GB",
+    "model": "Samsung Galaxy S23 FE 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy S23 FE 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "s23",
+      "fe",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1199,
+    "priceMax": 3398
+  },
+  {
+    "id": "samsung-galaxy-a36-256gb",
+    "name": "Samsung Galaxy A36 256GB",
+    "model": "Samsung Galaxy A36 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A36 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "a36",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "samsung-galaxy-a26-128gb",
+    "name": "Samsung Galaxy A26 128GB",
+    "model": "Samsung Galaxy A26 128GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A26 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "a26",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "samsung-galaxy-a06-128gb",
+    "name": "Samsung Galaxy A06 128GB",
+    "model": "Samsung Galaxy A06 128GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy A06 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "a06",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 299,
+    "priceMax": 848
+  },
+  {
+    "id": "samsung-galaxy-z-flip-6-256gb",
+    "name": "Samsung Galaxy Z Flip 6 256GB",
+    "model": "Samsung Galaxy Z Flip 6 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Z Flip 6 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "flip",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2999,
+    "priceMax": 8498
+  },
+  {
+    "id": "samsung-galaxy-z-fold-6-256gb",
+    "name": "Samsung Galaxy Z Fold 6 256GB",
+    "model": "Samsung Galaxy Z Fold 6 256GB",
+    "category": "Smartphones",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Z Fold 6 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "fold",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 4799,
+    "priceMax": 13598
+  },
+  {
+    "id": "xiaomi-15-256gb",
+    "name": "Xiaomi 15 256GB",
+    "model": "Xiaomi 15 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi 15 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "15",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2099,
+    "priceMax": 5948
+  },
+  {
+    "id": "xiaomi-14t-256gb",
+    "name": "Xiaomi 14T 256GB",
+    "model": "Xiaomi 14T 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi 14T 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "14t",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1199,
+    "priceMax": 3398
+  },
+  {
+    "id": "xiaomi-redmi-note-13-128gb",
+    "name": "Xiaomi Redmi Note 13 128GB",
+    "model": "Xiaomi Redmi Note 13 128GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi Note 13 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "redmi",
+      "note",
+      "13",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 479,
+    "priceMax": 1358
+  },
+  {
+    "id": "xiaomi-redmi-14c-256gb",
+    "name": "Xiaomi Redmi 14C 256GB",
+    "model": "Xiaomi Redmi 14C 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi 14C 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "redmi",
+      "14c",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 329,
+    "priceMax": 933
+  },
+  {
+    "id": "xiaomi-poco-f6-256gb",
+    "name": "Xiaomi Poco F6 256GB",
+    "model": "Xiaomi Poco F6 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Poco F6 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "poco",
+      "f6",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 959,
+    "priceMax": 2718
+  },
+  {
+    "id": "xiaomi-poco-m6-pro-256gb",
+    "name": "Xiaomi Poco M6 Pro 256GB",
+    "model": "Xiaomi Poco M6 Pro 256GB",
+    "category": "Smartphones",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Poco M6 Pro 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "poco",
+      "m6",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 479,
+    "priceMax": 1358
+  },
+  {
+    "id": "motorola-edge-50-pro-256gb",
+    "name": "Motorola Edge 50 Pro 256GB",
+    "model": "Motorola Edge 50 Pro 256GB",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "searchTerm": "Motorola Edge 50 Pro 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Motorola"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "motorola",
+      "edge",
+      "50",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 959,
+    "priceMax": 2718
+  },
+  {
+    "id": "motorola-moto-g85-256gb",
+    "name": "Motorola Moto G85 256GB",
+    "model": "Motorola Moto G85 256GB",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "searchTerm": "Motorola Moto G85 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Motorola"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "motorola",
+      "moto",
+      "g85",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 599,
+    "priceMax": 1698
+  },
+  {
+    "id": "motorola-moto-g54-256gb",
+    "name": "Motorola Moto G54 256GB",
+    "model": "Motorola Moto G54 256GB",
+    "category": "Smartphones",
+    "brand": "Motorola",
+    "searchTerm": "Motorola Moto G54 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Motorola"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "motorola",
+      "moto",
+      "g54",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 449,
+    "priceMax": 1273
+  },
+  {
+    "id": "honor-200-256gb",
+    "name": "Honor 200 256GB",
+    "model": "Honor 200 256GB",
+    "category": "Smartphones",
+    "brand": "Honor",
+    "searchTerm": "Honor 200 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Honor"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "honor",
+      "200",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1019,
+    "priceMax": 2888
+  },
+  {
+    "id": "honor-x9b-256gb",
+    "name": "Honor X9b 256GB",
+    "model": "Honor X9b 256GB",
+    "category": "Smartphones",
+    "brand": "Honor",
+    "searchTerm": "Honor X9b 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Honor"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "honor",
+      "x9b",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "realme-13-pro-256gb",
+    "name": "Realme 13 Pro 256GB",
+    "model": "Realme 13 Pro 256GB",
+    "category": "Smartphones",
+    "brand": "Realme",
+    "searchTerm": "Realme 13 Pro 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Realme"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "realme",
+      "13",
+      "pro",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 779,
+    "priceMax": 2208
+  },
+  {
+    "id": "realme-c67-128gb",
+    "name": "Realme C67 128GB",
+    "model": "Realme C67 128GB",
+    "category": "Smartphones",
+    "brand": "Realme",
+    "searchTerm": "Realme C67 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Realme"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "realme",
+      "c67",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 419,
+    "priceMax": 1188
+  },
+  {
+    "id": "huawei-nova-13-256gb",
+    "name": "Huawei Nova 13 256GB",
+    "model": "Huawei Nova 13 256GB",
+    "category": "Smartphones",
+    "brand": "Huawei",
+    "searchTerm": "Huawei Nova 13 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Huawei"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "huawei",
+      "nova",
+      "13",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1079,
+    "priceMax": 3058
+  },
+  {
+    "id": "oppo-reno-12-256gb",
+    "name": "OPPO Reno 12 256GB",
+    "model": "OPPO Reno 12 256GB",
+    "category": "Smartphones",
+    "brand": "Oppo",
+    "searchTerm": "OPPO Reno 12 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "Oppo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "oppo",
+      "reno",
+      "12",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 899,
+    "priceMax": 2548
+  },
+  {
+    "id": "hp-pavilion-15-i7-16gb-512gb",
+    "name": "HP Pavilion 15 i7 16GB 512GB",
+    "model": "HP Pavilion 15 i7 16GB 512GB",
+    "category": "Laptops",
+    "brand": "HP",
+    "searchTerm": "HP Pavilion 15 i7 16GB 512GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "HP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hp",
+      "pavilion",
+      "15",
+      "i7",
+      "16gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1979,
+    "priceMax": 5608
+  },
+  {
+    "id": "hp-250-g10-i5-8gb-512gb",
+    "name": "HP 250 G10 i5 8GB 512GB",
+    "model": "HP 250 G10 i5 8GB 512GB",
+    "category": "Laptops",
+    "brand": "HP",
+    "searchTerm": "HP 250 G10 i5 8GB 512GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "HP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hp",
+      "250",
+      "g10",
+      "i5",
+      "8gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1199,
+    "priceMax": 3398
+  },
+  {
+    "id": "hp-omen-16-rtx-4060",
+    "name": "HP Omen 16 RTX 4060",
+    "model": "HP Omen 16 RTX 4060",
+    "category": "Laptops",
+    "brand": "HP",
+    "searchTerm": "HP Omen 16 RTX 4060",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "HP"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hp",
+      "omen",
+      "16",
+      "rtx",
+      "4060"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 3599,
+    "priceMax": 10198
+  },
+  {
+    "id": "lenovo-ideapad-slim-5-i7-16gb-512gb",
+    "name": "Lenovo IdeaPad Slim 5 i7 16GB 512GB",
+    "model": "Lenovo IdeaPad Slim 5 i7 16GB 512GB",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo IdeaPad Slim 5 i7 16GB 512GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Lenovo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "ideapad",
+      "slim",
+      "i7",
+      "16gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1799,
+    "priceMax": 5098
+  },
+  {
+    "id": "lenovo-legion-5-rtx-4060",
+    "name": "Lenovo Legion 5 RTX 4060",
+    "model": "Lenovo Legion 5 RTX 4060",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo Legion 5 RTX 4060",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Lenovo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "legion",
+      "rtx",
+      "4060"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 3299,
+    "priceMax": 9348
+  },
+  {
+    "id": "lenovo-thinkpad-e14-i5-16gb-512gb",
+    "name": "Lenovo ThinkPad E14 i5 16GB 512GB",
+    "model": "Lenovo ThinkPad E14 i5 16GB 512GB",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo ThinkPad E14 i5 16GB 512GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Lenovo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "thinkpad",
+      "e14",
+      "i5",
+      "16gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1979,
+    "priceMax": 5608
+  },
+  {
+    "id": "asus-zenbook-14-oled-i7",
+    "name": "Asus Zenbook 14 OLED i7",
+    "model": "Asus Zenbook 14 OLED i7",
+    "category": "Laptops",
+    "brand": "Asus",
+    "searchTerm": "Asus Zenbook 14 OLED i7",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Asus"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "zenbook",
+      "14",
+      "oled",
+      "i7"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2579,
+    "priceMax": 7308
+  },
+  {
+    "id": "asus-rog-strix-g16-rtx-4070",
+    "name": "Asus ROG Strix G16 RTX 4070",
+    "model": "Asus ROG Strix G16 RTX 4070",
+    "category": "Laptops",
+    "brand": "Asus",
+    "searchTerm": "Asus ROG Strix G16 RTX 4070",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Asus"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "rog",
+      "strix",
+      "g16",
+      "rtx",
+      "4070"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 4499,
+    "priceMax": 12748
+  },
+  {
+    "id": "acer-nitro-v15-rtx-4050",
+    "name": "Acer Nitro V15 RTX 4050",
+    "model": "Acer Nitro V15 RTX 4050",
+    "category": "Laptops",
+    "brand": "Acer",
+    "searchTerm": "Acer Nitro V15 RTX 4050",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Acer"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "acer",
+      "nitro",
+      "v15",
+      "rtx",
+      "4050"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2279,
+    "priceMax": 6458
+  },
+  {
+    "id": "dell-inspiron-15-i5-16gb-512gb",
+    "name": "Dell Inspiron 15 i5 16GB 512GB",
+    "model": "Dell Inspiron 15 i5 16GB 512GB",
+    "category": "Laptops",
+    "brand": "Dell",
+    "searchTerm": "Dell Inspiron 15 i5 16GB 512GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Dell"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "dell",
+      "inspiron",
+      "15",
+      "i5",
+      "16gb",
+      "512gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1559,
+    "priceMax": 4418
+  },
+  {
+    "id": "macbook-air-m1-13-256gb",
+    "name": "MacBook Air M1 13 256GB",
+    "model": "MacBook Air M1 13 256GB",
+    "category": "Laptops",
+    "brand": "Apple",
+    "searchTerm": "MacBook Air M1 13 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "macbook",
+      "air",
+      "m1",
+      "13",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1979,
+    "priceMax": 5608
+  },
+  {
+    "id": "macbook-pro-16-m4-pro",
+    "name": "MacBook Pro 16 M4 Pro",
+    "model": "MacBook Pro 16 M4 Pro",
+    "category": "Laptops",
+    "brand": "Apple",
+    "searchTerm": "MacBook Pro 16 M4 Pro",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "macbook",
+      "pro",
+      "16",
+      "m4"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 7199,
+    "priceMax": 20398
+  },
+  {
+    "id": "msi-thin-15-rtx-4050",
+    "name": "MSI Thin 15 RTX 4050",
+    "model": "MSI Thin 15 RTX 4050",
+    "category": "Laptops",
+    "brand": "MSI",
+    "searchTerm": "MSI Thin 15 RTX 4050",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "MSI"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "msi",
+      "thin",
+      "15",
+      "rtx",
+      "4050"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2399,
+    "priceMax": 6798
+  },
+  {
+    "id": "asus-vivobook-go-15",
+    "name": "Asus Vivobook Go 15",
+    "model": "Asus Vivobook Go 15",
+    "category": "Laptops",
+    "brand": "Asus",
+    "searchTerm": "Asus Vivobook Go 15",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Laptops"
+      },
+      {
+        "label": "Marca",
+        "value": "Asus"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "vivobook",
+      "go",
+      "15"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1079,
+    "priceMax": 3058
+  },
+  {
+    "id": "ipad-mini-7-128gb",
+    "name": "iPad mini 7 128GB",
+    "model": "iPad mini 7 128GB",
+    "category": "Tablets",
+    "brand": "Apple",
+    "searchTerm": "iPad mini 7 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "ipad",
+      "mini",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1439,
+    "priceMax": 4078
+  },
+  {
+    "id": "ipad-pro-11-m4-256gb",
+    "name": "iPad Pro 11 M4 256GB",
+    "model": "iPad Pro 11 M4 256GB",
+    "category": "Tablets",
+    "brand": "Apple",
+    "searchTerm": "iPad Pro 11 M4 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "ipad",
+      "pro",
+      "11",
+      "m4",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2999,
+    "priceMax": 8498
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-plus-256gb",
+    "name": "Samsung Galaxy Tab S10 Plus 256GB",
+    "model": "Samsung Galaxy Tab S10 Plus 256GB",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Tab S10 Plus 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "tab",
+      "s10",
+      "plus",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2699,
+    "priceMax": 7648
+  },
+  {
+    "id": "lenovo-tab-m11-128gb",
+    "name": "Lenovo Tab M11 128GB",
+    "model": "Lenovo Tab M11 128GB",
+    "category": "Tablets",
+    "brand": "Lenovo",
+    "searchTerm": "Lenovo Tab M11 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Lenovo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lenovo",
+      "tab",
+      "m11",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 599,
+    "priceMax": 1698
+  },
+  {
+    "id": "xiaomi-redmi-pad-se-128gb",
+    "name": "Xiaomi Redmi Pad SE 128GB",
+    "model": "Xiaomi Redmi Pad SE 128GB",
+    "category": "Tablets",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi Pad SE 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "redmi",
+      "pad",
+      "se",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 479,
+    "priceMax": 1358
+  },
+  {
+    "id": "xiaomi-pad-7-128gb",
+    "name": "Xiaomi Pad 7 128GB",
+    "model": "Xiaomi Pad 7 128GB",
+    "category": "Tablets",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Pad 7 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "pad",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1079,
+    "priceMax": 3058
+  },
+  {
+    "id": "huawei-matepad-11-5-128gb",
+    "name": "Huawei MatePad 11.5 128GB",
+    "model": "Huawei MatePad 11.5 128GB",
+    "category": "Tablets",
+    "brand": "Huawei",
+    "searchTerm": "Huawei MatePad 11.5 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Huawei"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "huawei",
+      "matepad",
+      "11.5",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 839,
+    "priceMax": 2378
+  },
+  {
+    "id": "samsung-galaxy-tab-s9-256gb",
+    "name": "Samsung Galaxy Tab S9 256GB",
+    "model": "Samsung Galaxy Tab S9 256GB",
+    "category": "Tablets",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Tab S9 256GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Tablets"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "tab",
+      "s9",
+      "256gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1799,
+    "priceMax": 5098
+  },
+  {
+    "id": "airpods-3",
+    "name": "AirPods 3",
+    "model": "AirPods 3",
+    "category": "Audífonos",
+    "brand": "Apple",
+    "searchTerm": "AirPods 3",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "airpods"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 449,
+    "priceMax": 1273
+  },
+  {
+    "id": "sony-wf-1000xm5",
+    "name": "Sony WF-1000XM5",
+    "model": "Sony WF-1000XM5",
+    "category": "Audífonos",
+    "brand": "Sony",
+    "searchTerm": "Sony WF-1000XM5",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "wf",
+      "1000xm5"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 599,
+    "priceMax": 1698
+  },
+  {
+    "id": "sony-wh-1000xm4",
+    "name": "Sony WH-1000XM4",
+    "model": "Sony WH-1000XM4",
+    "category": "Audífonos",
+    "brand": "Sony",
+    "searchTerm": "Sony WH-1000XM4",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "wh",
+      "1000xm4"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "sony-wf-c510",
+    "name": "Sony WF-C510",
+    "model": "Sony WF-C510",
+    "category": "Audífonos",
+    "brand": "Sony",
+    "searchTerm": "Sony WF-C510",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "wf",
+      "c510"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "samsung-galaxy-buds-3",
+    "name": "Samsung Galaxy Buds 3",
+    "model": "Samsung Galaxy Buds 3",
+    "category": "Audífonos",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Buds 3",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "buds"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 359,
+    "priceMax": 1018
+  },
+  {
+    "id": "samsung-galaxy-buds-3-pro",
+    "name": "Samsung Galaxy Buds 3 Pro",
+    "model": "Samsung Galaxy Buds 3 Pro",
+    "category": "Audífonos",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Buds 3 Pro",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "buds",
+      "pro"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "bose-quietcomfort-ultra",
+    "name": "Bose QuietComfort Ultra",
+    "model": "Bose QuietComfort Ultra",
+    "category": "Audífonos",
+    "brand": "Bose",
+    "searchTerm": "Bose QuietComfort Ultra",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Bose"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "bose",
+      "quietcomfort",
+      "ultra"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 959,
+    "priceMax": 2718
+  },
+  {
+    "id": "jbl-tune-720bt",
+    "name": "JBL Tune 720BT",
+    "model": "JBL Tune 720BT",
+    "category": "Audífonos",
+    "brand": "JBL",
+    "searchTerm": "JBL Tune 720BT",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "JBL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "jbl",
+      "tune",
+      "720bt"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "jbl-live-770nc",
+    "name": "JBL Live 770NC",
+    "model": "JBL Live 770NC",
+    "category": "Audífonos",
+    "brand": "JBL",
+    "searchTerm": "JBL Live 770NC",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "JBL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "jbl",
+      "live",
+      "770nc"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 359,
+    "priceMax": 1018
+  },
+  {
+    "id": "jbl-wave-flex",
+    "name": "JBL Wave Flex",
+    "model": "JBL Wave Flex",
+    "category": "Audífonos",
+    "brand": "JBL",
+    "searchTerm": "JBL Wave Flex",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "JBL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "jbl",
+      "wave",
+      "flex"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "xiaomi-redmi-buds-6",
+    "name": "Xiaomi Redmi Buds 6",
+    "model": "Xiaomi Redmi Buds 6",
+    "category": "Audífonos",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Redmi Buds 6",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "redmi",
+      "buds"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 89,
+    "priceMax": 253
+  },
+  {
+    "id": "soundcore-by-anker-p40i",
+    "name": "Soundcore by Anker P40i",
+    "model": "Soundcore by Anker P40i",
+    "category": "Audífonos",
+    "brand": "Soundcore",
+    "searchTerm": "Soundcore by Anker P40i",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Soundcore"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "soundcore",
+      "by",
+      "anker",
+      "p40i"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "marshall-major-v",
+    "name": "Marshall Major V",
+    "model": "Marshall Major V",
+    "category": "Audífonos",
+    "brand": "Marshall",
+    "searchTerm": "Marshall Major V",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Marshall"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "marshall",
+      "major"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 419,
+    "priceMax": 1188
+  },
+  {
+    "id": "beats-studio-buds",
+    "name": "Beats Studio Buds",
+    "model": "Beats Studio Buds",
+    "category": "Audífonos",
+    "brand": "Beats",
+    "searchTerm": "Beats Studio Buds",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Audífonos"
+      },
+      {
+        "label": "Marca",
+        "value": "Beats"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "beats",
+      "studio",
+      "buds"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 299,
+    "priceMax": 848
+  },
+  {
+    "id": "apple-watch-ultra-2",
+    "name": "Apple Watch Ultra 2",
+    "model": "Apple Watch Ultra 2",
+    "category": "Wearables",
+    "brand": "Apple",
+    "searchTerm": "Apple Watch Ultra 2",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "apple",
+      "watch",
+      "ultra"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2099,
+    "priceMax": 5948
+  },
+  {
+    "id": "apple-watch-series-9",
+    "name": "Apple Watch Series 9",
+    "model": "Apple Watch Series 9",
+    "category": "Wearables",
+    "brand": "Apple",
+    "searchTerm": "Apple Watch Series 9",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "apple",
+      "watch",
+      "series"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1019,
+    "priceMax": 2888
+  },
+  {
+    "id": "samsung-galaxy-watch-fe",
+    "name": "Samsung Galaxy Watch FE",
+    "model": "Samsung Galaxy Watch FE",
+    "category": "Wearables",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Watch FE",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "watch",
+      "fe"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "samsung-galaxy-fit-3",
+    "name": "Samsung Galaxy Fit 3",
+    "model": "Samsung Galaxy Fit 3",
+    "category": "Wearables",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Galaxy Fit 3",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "galaxy",
+      "fit"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 149,
+    "priceMax": 423
+  },
+  {
+    "id": "xiaomi-smart-band-9-pro",
+    "name": "Xiaomi Smart Band 9 Pro",
+    "model": "Xiaomi Smart Band 9 Pro",
+    "category": "Wearables",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Smart Band 9 Pro",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "smart",
+      "band",
+      "pro"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 209,
+    "priceMax": 593
+  },
+  {
+    "id": "xiaomi-watch-s3",
+    "name": "Xiaomi Watch S3",
+    "model": "Xiaomi Watch S3",
+    "category": "Wearables",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Watch S3",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "watch",
+      "s3"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 419,
+    "priceMax": 1188
+  },
+  {
+    "id": "redmi-watch-5",
+    "name": "Redmi Watch 5",
+    "model": "Redmi Watch 5",
+    "category": "Wearables",
+    "brand": "Xiaomi",
+    "searchTerm": "Redmi Watch 5",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "redmi",
+      "watch"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 269,
+    "priceMax": 763
+  },
+  {
+    "id": "huawei-watch-gt-5",
+    "name": "Huawei Watch GT 5",
+    "model": "Huawei Watch GT 5",
+    "category": "Wearables",
+    "brand": "Huawei",
+    "searchTerm": "Huawei Watch GT 5",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Huawei"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "huawei",
+      "watch",
+      "gt"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "amazfit-gtr-4",
+    "name": "Amazfit GTR 4",
+    "model": "Amazfit GTR 4",
+    "category": "Wearables",
+    "brand": "Amazfit",
+    "searchTerm": "Amazfit GTR 4",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Amazfit"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "amazfit",
+      "gtr"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "amazfit-active",
+    "name": "Amazfit Active",
+    "model": "Amazfit Active",
+    "category": "Wearables",
+    "brand": "Amazfit",
+    "searchTerm": "Amazfit Active",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Wearables"
+      },
+      {
+        "label": "Marca",
+        "value": "Amazfit"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "amazfit",
+      "active"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 299,
+    "priceMax": 848
+  },
+  {
+    "id": "playstation-5-slim-digital",
+    "name": "PlayStation 5 Slim Digital",
+    "model": "PlayStation 5 Slim Digital",
+    "category": "Consolas",
+    "brand": "Sony",
+    "searchTerm": "PlayStation 5 Slim Digital",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Consolas"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "playstation",
+      "slim",
+      "digital"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1139,
+    "priceMax": 3228
+  },
+  {
+    "id": "mando-dualsense-ps5",
+    "name": "Mando DualSense PS5",
+    "model": "Mando DualSense PS5",
+    "category": "Consolas",
+    "brand": "Sony",
+    "searchTerm": "Mando DualSense PS5",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Consolas"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "mando",
+      "dualsense",
+      "ps5"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "nintendo-switch-lite",
+    "name": "Nintendo Switch Lite",
+    "model": "Nintendo Switch Lite",
+    "category": "Consolas",
+    "brand": "Nintendo",
+    "searchTerm": "Nintendo Switch Lite",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Consolas"
+      },
+      {
+        "label": "Marca",
+        "value": "Nintendo"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "nintendo",
+      "switch",
+      "lite"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 599,
+    "priceMax": 1698
+  },
+  {
+    "id": "mando-xbox-series",
+    "name": "Mando Xbox Series",
+    "model": "Mando Xbox Series",
+    "category": "Consolas",
+    "brand": "Microsoft",
+    "searchTerm": "Mando Xbox Series",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Consolas"
+      },
+      {
+        "label": "Marca",
+        "value": "Microsoft"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "mando",
+      "xbox",
+      "series"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 167,
+    "priceMax": 474
+  },
+  {
+    "id": "meta-quest-3-128gb",
+    "name": "Meta Quest 3 128GB",
+    "model": "Meta Quest 3 128GB",
+    "category": "Consolas",
+    "brand": "Meta",
+    "searchTerm": "Meta Quest 3 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Consolas"
+      },
+      {
+        "label": "Marca",
+        "value": "Meta"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "meta",
+      "quest",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1379,
+    "priceMax": 3908
+  },
+  {
+    "id": "samsung-smart-tv-43-crystal-uhd-4k",
+    "name": "Samsung Smart TV 43 Crystal UHD 4K",
+    "model": "Samsung Smart TV 43 Crystal UHD 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Smart TV 43 Crystal UHD 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "smart",
+      "tv",
+      "43",
+      "crystal",
+      "uhd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 839,
+    "priceMax": 2378
+  },
+  {
+    "id": "samsung-smart-tv-65-crystal-uhd-4k",
+    "name": "Samsung Smart TV 65 Crystal UHD 4K",
+    "model": "Samsung Smart TV 65 Crystal UHD 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Smart TV 65 Crystal UHD 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "smart",
+      "tv",
+      "65",
+      "crystal",
+      "uhd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1679,
+    "priceMax": 4758
+  },
+  {
+    "id": "samsung-qled-55-q60-4k",
+    "name": "Samsung QLED 55 Q60 4K",
+    "model": "Samsung QLED 55 Q60 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung QLED 55 Q60 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "qled",
+      "55",
+      "q60",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1499,
+    "priceMax": 4248
+  },
+  {
+    "id": "lg-smart-tv-50-uhd-4k",
+    "name": "LG Smart TV 50 UHD 4K",
+    "model": "LG Smart TV 50 UHD 4K",
+    "category": "Televisores",
+    "brand": "LG",
+    "searchTerm": "LG Smart TV 50 UHD 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "LG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "smart",
+      "tv",
+      "50",
+      "uhd",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 959,
+    "priceMax": 2718
+  },
+  {
+    "id": "lg-oled-65-c4-4k",
+    "name": "LG OLED 65 C4 4K",
+    "model": "LG OLED 65 C4 4K",
+    "category": "Televisores",
+    "brand": "LG",
+    "searchTerm": "LG OLED 65 C4 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "LG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "oled",
+      "65",
+      "c4",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 4199,
+    "priceMax": 11898
+  },
+  {
+    "id": "lg-nanocell-55-4k",
+    "name": "LG NanoCell 55 4K",
+    "model": "LG NanoCell 55 4K",
+    "category": "Televisores",
+    "brand": "LG",
+    "searchTerm": "LG NanoCell 55 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "LG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "nanocell",
+      "55",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1379,
+    "priceMax": 3908
+  },
+  {
+    "id": "tcl-qled-55-4k",
+    "name": "TCL QLED 55 4K",
+    "model": "TCL QLED 55 4K",
+    "category": "Televisores",
+    "brand": "TCL",
+    "searchTerm": "TCL QLED 55 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "TCL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "tcl",
+      "qled",
+      "55",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1079,
+    "priceMax": 3058
+  },
+  {
+    "id": "tcl-smart-tv-65-4k",
+    "name": "TCL Smart TV 65 4K",
+    "model": "TCL Smart TV 65 4K",
+    "category": "Televisores",
+    "brand": "TCL",
+    "searchTerm": "TCL Smart TV 65 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "TCL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "tcl",
+      "smart",
+      "tv",
+      "65",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1379,
+    "priceMax": 3908
+  },
+  {
+    "id": "hisense-55-u6-uled-4k",
+    "name": "Hisense 55 U6 ULED 4K",
+    "model": "Hisense 55 U6 ULED 4K",
+    "category": "Televisores",
+    "brand": "Hisense",
+    "searchTerm": "Hisense 55 U6 ULED 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Hisense"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hisense",
+      "55",
+      "u6",
+      "uled",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1199,
+    "priceMax": 3398
+  },
+  {
+    "id": "hisense-smart-tv-50-4k",
+    "name": "Hisense Smart TV 50 4K",
+    "model": "Hisense Smart TV 50 4K",
+    "category": "Televisores",
+    "brand": "Hisense",
+    "searchTerm": "Hisense Smart TV 50 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Hisense"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hisense",
+      "smart",
+      "tv",
+      "50",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 839,
+    "priceMax": 2378
+  },
+  {
+    "id": "sony-bravia-55-4k",
+    "name": "Sony Bravia 55 4K",
+    "model": "Sony Bravia 55 4K",
+    "category": "Televisores",
+    "brand": "Sony",
+    "searchTerm": "Sony Bravia 55 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Sony"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sony",
+      "bravia",
+      "55",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1799,
+    "priceMax": 5098
+  },
+  {
+    "id": "samsung-neo-qled-55-4k",
+    "name": "Samsung Neo QLED 55 4K",
+    "model": "Samsung Neo QLED 55 4K",
+    "category": "Televisores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Neo QLED 55 4K",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Televisores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "neo",
+      "qled",
+      "55",
+      "4k"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2699,
+    "priceMax": 7648
+  },
+  {
+    "id": "samsung-odyssey-g5-27",
+    "name": "Samsung Odyssey G5 27",
+    "model": "Samsung Odyssey G5 27",
+    "category": "Monitores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Odyssey G5 27",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "odyssey",
+      "g5",
+      "27"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 719,
+    "priceMax": 2038
+  },
+  {
+    "id": "samsung-monitor-27-fhd",
+    "name": "Samsung Monitor 27 FHD",
+    "model": "Samsung Monitor 27 FHD",
+    "category": "Monitores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung Monitor 27 FHD",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "monitor",
+      "27",
+      "fhd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 419,
+    "priceMax": 1188
+  },
+  {
+    "id": "lg-ultragear-24",
+    "name": "LG UltraGear 24",
+    "model": "LG UltraGear 24",
+    "category": "Monitores",
+    "brand": "LG",
+    "searchTerm": "LG UltraGear 24",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "LG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "ultragear",
+      "24"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "lg-ultrawide-29",
+    "name": "LG UltraWide 29",
+    "model": "LG UltraWide 29",
+    "category": "Monitores",
+    "brand": "LG",
+    "searchTerm": "LG UltraWide 29",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "LG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "lg",
+      "ultrawide",
+      "29"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 779,
+    "priceMax": 2208
+  },
+  {
+    "id": "asus-tuf-gaming-24",
+    "name": "Asus TUF Gaming 24",
+    "model": "Asus TUF Gaming 24",
+    "category": "Monitores",
+    "brand": "Asus",
+    "searchTerm": "Asus TUF Gaming 24",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "Asus"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "tuf",
+      "gaming",
+      "24"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 539,
+    "priceMax": 1528
+  },
+  {
+    "id": "asus-proart-27",
+    "name": "Asus ProArt 27",
+    "model": "Asus ProArt 27",
+    "category": "Monitores",
+    "brand": "Asus",
+    "searchTerm": "Asus ProArt 27",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "Asus"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "asus",
+      "proart",
+      "27"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1199,
+    "priceMax": 3398
+  },
+  {
+    "id": "aoc-24g2",
+    "name": "AOC 24G2",
+    "model": "AOC 24G2",
+    "category": "Monitores",
+    "brand": "AOC",
+    "searchTerm": "AOC 24G2",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "AOC"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "aoc",
+      "24g2"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 479,
+    "priceMax": 1358
+  },
+  {
+    "id": "viewsonic-22-fhd",
+    "name": "ViewSonic 22 FHD",
+    "model": "ViewSonic 22 FHD",
+    "category": "Monitores",
+    "brand": "ViewSonic",
+    "searchTerm": "ViewSonic 22 FHD",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Monitores"
+      },
+      {
+        "label": "Marca",
+        "value": "ViewSonic"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "viewsonic",
+      "22",
+      "fhd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 299,
+    "priceMax": 848
+  },
+  {
+    "id": "anker-powercore-10000",
+    "name": "Anker PowerCore 10000",
+    "model": "Anker PowerCore 10000",
+    "category": "Accesorios",
+    "brand": "Anker",
+    "searchTerm": "Anker PowerCore 10000",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Anker"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "anker",
+      "powercore",
+      "10000"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 89,
+    "priceMax": 253
+  },
+  {
+    "id": "xiaomi-power-bank-10000mah",
+    "name": "Xiaomi Power Bank 10000mAh",
+    "model": "Xiaomi Power Bank 10000mAh",
+    "category": "Accesorios",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi Power Bank 10000mAh",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "power",
+      "bank",
+      "10000mah"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 59,
+    "priceMax": 168
+  },
+  {
+    "id": "samsung-ssd-t7-1tb",
+    "name": "Samsung SSD T7 1TB",
+    "model": "Samsung SSD T7 1TB",
+    "category": "Accesorios",
+    "brand": "Samsung",
+    "searchTerm": "Samsung SSD T7 1TB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "ssd",
+      "t7",
+      "1tb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 269,
+    "priceMax": 763
+  },
+  {
+    "id": "kingston-a400-480gb-ssd",
+    "name": "Kingston A400 480GB SSD",
+    "model": "Kingston A400 480GB SSD",
+    "category": "Accesorios",
+    "brand": "Kingston",
+    "searchTerm": "Kingston A400 480GB SSD",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Kingston"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "kingston",
+      "a400",
+      "480gb",
+      "ssd"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 95,
+    "priceMax": 270
+  },
+  {
+    "id": "sandisk-ultra-microsd-128gb",
+    "name": "SanDisk Ultra microSD 128GB",
+    "model": "SanDisk Ultra microSD 128GB",
+    "category": "Accesorios",
+    "brand": "SanDisk",
+    "searchTerm": "SanDisk Ultra microSD 128GB",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "SanDisk"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "sandisk",
+      "ultra",
+      "microsd",
+      "128gb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 53,
+    "priceMax": 151
+  },
+  {
+    "id": "logitech-mx-master-3s",
+    "name": "Logitech MX Master 3S",
+    "model": "Logitech MX Master 3S",
+    "category": "Accesorios",
+    "brand": "Logitech",
+    "searchTerm": "Logitech MX Master 3S",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Logitech"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "logitech",
+      "mx",
+      "master",
+      "3s"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 239,
+    "priceMax": 678
+  },
+  {
+    "id": "logitech-m170-mouse",
+    "name": "Logitech M170 Mouse",
+    "model": "Logitech M170 Mouse",
+    "category": "Accesorios",
+    "brand": "Logitech",
+    "searchTerm": "Logitech M170 Mouse",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Logitech"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "logitech",
+      "m170",
+      "mouse"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 35,
+    "priceMax": 100
+  },
+  {
+    "id": "redragon-kumara-teclado",
+    "name": "Redragon Kumara Teclado",
+    "model": "Redragon Kumara Teclado",
+    "category": "Accesorios",
+    "brand": "Redragon",
+    "searchTerm": "Redragon Kumara Teclado",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Redragon"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "redragon",
+      "kumara",
+      "teclado"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 89,
+    "priceMax": 253
+  },
+  {
+    "id": "tp-link-archer-ax23-router",
+    "name": "TP-Link Archer AX23 Router",
+    "model": "TP-Link Archer AX23 Router",
+    "category": "Accesorios",
+    "brand": "TP-Link",
+    "searchTerm": "TP-Link Archer AX23 Router",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "TP-Link"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "tp",
+      "link",
+      "archer",
+      "ax23",
+      "router"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "logitech-c920-webcam",
+    "name": "Logitech C920 Webcam",
+    "model": "Logitech C920 Webcam",
+    "category": "Accesorios",
+    "brand": "Logitech",
+    "searchTerm": "Logitech C920 Webcam",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Logitech"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "logitech",
+      "c920",
+      "webcam"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 179,
+    "priceMax": 508
+  },
+  {
+    "id": "hyperx-cloud-stinger-2",
+    "name": "HyperX Cloud Stinger 2",
+    "model": "HyperX Cloud Stinger 2",
+    "category": "Accesorios",
+    "brand": "HyperX",
+    "searchTerm": "HyperX Cloud Stinger 2",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "HyperX"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "hyperx",
+      "cloud",
+      "stinger"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "anker-usb-c-hub-7-en-1",
+    "name": "Anker USB-C Hub 7 en 1",
+    "model": "Anker USB-C Hub 7 en 1",
+    "category": "Accesorios",
+    "brand": "Anker",
+    "searchTerm": "Anker USB-C Hub 7 en 1",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Accesorios"
+      },
+      {
+        "label": "Marca",
+        "value": "Anker"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "anker",
+      "usb",
+      "hub"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 107,
+    "priceMax": 304
+  },
+  {
+    "id": "samsung-25w-usb-c",
+    "name": "Samsung 25W USB-C",
+    "model": "Samsung 25W USB-C",
+    "category": "Cargadores",
+    "brand": "Samsung",
+    "searchTerm": "Samsung 25W USB-C",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Samsung"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung",
+      "25w",
+      "usb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 47,
+    "priceMax": 134
+  },
+  {
+    "id": "anker-65w-gan",
+    "name": "Anker 65W GaN",
+    "model": "Anker 65W GaN",
+    "category": "Cargadores",
+    "brand": "Anker",
+    "searchTerm": "Anker 65W GaN",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Anker"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "anker",
+      "65w",
+      "gan"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 89,
+    "priceMax": 253
+  },
+  {
+    "id": "belkin-30w-usb-c",
+    "name": "Belkin 30W USB-C",
+    "model": "Belkin 30W USB-C",
+    "category": "Cargadores",
+    "brand": "Belkin",
+    "searchTerm": "Belkin 30W USB-C",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Belkin"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "belkin",
+      "30w",
+      "usb"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 59,
+    "priceMax": 168
+  },
+  {
+    "id": "xiaomi-67w-cargador",
+    "name": "Xiaomi 67W Cargador",
+    "model": "Xiaomi 67W Cargador",
+    "category": "Cargadores",
+    "brand": "Xiaomi",
+    "searchTerm": "Xiaomi 67W Cargador",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Xiaomi"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi",
+      "67w",
+      "cargador"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 71,
+    "priceMax": 202
+  },
+  {
+    "id": "ugreen-100w-gan",
+    "name": "UGREEN 100W GaN",
+    "model": "UGREEN 100W GaN",
+    "category": "Cargadores",
+    "brand": "Ugreen",
+    "searchTerm": "UGREEN 100W GaN",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Ugreen"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "ugreen",
+      "100w",
+      "gan"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "apple-magsafe-charger",
+    "name": "Apple MagSafe Charger",
+    "model": "Apple MagSafe Charger",
+    "category": "Cargadores",
+    "brand": "Apple",
+    "searchTerm": "Apple MagSafe Charger",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Cargadores"
+      },
+      {
+        "label": "Marca",
+        "value": "Apple"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "apple",
+      "magsafe",
+      "charger"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 119,
+    "priceMax": 338
+  },
+  {
+    "id": "zte",
+    "name": "ZTE",
+    "model": "ZTE",
+    "category": "Smartphones",
+    "brand": "ZTE",
+    "searchTerm": "ZTE",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "ZTE"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "zte"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 252,
+    "priceMax": 714
+  },
+  {
+    "id": "infinix",
+    "name": "INFINIX",
+    "model": "INFINIX",
+    "category": "Smartphones",
+    "brand": "INFINIX",
+    "searchTerm": "INFINIX",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "INFINIX"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "infinix"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 348,
+    "priceMax": 986
+  },
+  {
+    "id": "samsung",
+    "name": "SAMSUNG",
+    "model": "SAMSUNG",
+    "category": "Smartphones",
+    "brand": "SAMSUNG",
+    "searchTerm": "SAMSUNG",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "SAMSUNG"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "samsung"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1679,
+    "priceMax": 4758
+  },
+  {
+    "id": "generico",
+    "name": "GENERICO",
+    "model": "GENERICO",
+    "category": "Smartphones",
+    "brand": "GENERICO",
+    "searchTerm": "GENERICO",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "GENERICO"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "generico"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 48,
+    "priceMax": 136
+  },
+  {
+    "id": "motorola",
+    "name": "MOTOROLA",
+    "model": "MOTOROLA",
+    "category": "Smartphones",
+    "brand": "MOTOROLA",
+    "searchTerm": "MOTOROLA",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "MOTOROLA"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "motorola"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2159,
+    "priceMax": 6118
+  },
+  {
+    "id": "honor",
+    "name": "HONOR",
+    "model": "HONOR",
+    "category": "Smartphones",
+    "brand": "HONOR",
+    "searchTerm": "HONOR",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "HONOR"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "honor"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1259,
+    "priceMax": 3568
+  },
+  {
+    "id": "xiaomi",
+    "name": "XIAOMI",
+    "model": "XIAOMI",
+    "category": "Smartphones",
+    "brand": "XIAOMI",
+    "searchTerm": "XIAOMI",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "XIAOMI"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "xiaomi"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 269,
+    "priceMax": 763
+  },
+  {
+    "id": "alcatel",
+    "name": "ALCATEL",
+    "model": "ALCATEL",
+    "category": "Smartphones",
+    "brand": "ALCATEL",
+    "searchTerm": "ALCATEL",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "ALCATEL"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "alcatel"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 89,
+    "priceMax": 253
+  },
+  {
+    "id": "redmi",
+    "name": "REDMI",
+    "model": "REDMI",
+    "category": "Smartphones",
+    "brand": "REDMI",
+    "searchTerm": "REDMI",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "REDMI"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "redmi"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 299,
+    "priceMax": 848
+  },
+  {
+    "id": "vivo",
+    "name": "VIVO",
+    "model": "VIVO",
+    "category": "Smartphones",
+    "brand": "VIVO",
+    "searchTerm": "VIVO",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "VIVO"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "vivo"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 1139,
+    "priceMax": 3228
+  },
+  {
+    "id": "apple",
+    "name": "APPLE",
+    "model": "APPLE",
+    "category": "Smartphones",
+    "brand": "APPLE",
+    "searchTerm": "APPLE",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "APPLE"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "apple"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 3419,
+    "priceMax": 9688
+  },
+  {
+    "id": "dji",
+    "name": "DJI",
+    "model": "DJI",
+    "category": "Smartphones",
+    "brand": "DJI",
+    "searchTerm": "DJI",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "DJI"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "dji"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 659,
+    "priceMax": 1868
+  },
+  {
+    "id": "huawei",
+    "name": "HUAWEI",
+    "model": "HUAWEI",
+    "category": "Smartphones",
+    "brand": "HUAWEI",
+    "searchTerm": "HUAWEI",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "HUAWEI"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "huawei"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 2999,
+    "priceMax": 8498
+  },
+  {
+    "id": "oppo",
+    "name": "OPPO",
+    "model": "OPPO",
+    "category": "Smartphones",
+    "brand": "OPPO",
+    "searchTerm": "OPPO",
+    "specs": [
+      {
+        "label": "Categoría",
+        "value": "Smartphones"
+      },
+      {
+        "label": "Marca",
+        "value": "OPPO"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo"
+      }
+    ],
+    "requiredTerms": [
+      "oppo"
+    ],
+    "rejectTerms": [
+      "reacondicionado",
+      "usado",
+      "seminuevo",
+      "open box",
+      "funda",
+      "case",
+      "mica",
+      "protector"
+    ],
+    "priceMin": 359,
+    "priceMax": 1018
+  }
+]

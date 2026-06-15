@@ -1,0 +1,46 @@
+{
+  "_comment": "Selectores de referencia para el validador con Playwright. Las tiendas cambian su HTML con frecuencia; ajusta estos valores si la lectura automática falla. Mientras tanto, el sistema usa el link de búsqueda real y muestra 'Consultar'.",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "timeoutMs": 25000,
+  "maxCandidates": 12,
+  "stores": {
+    "falabella": {
+      "itemSelector": "a[data-pod-type], div.pod, a.pod-link",
+      "titleSelector": "b.pod-subTitle, .pod-title, [id^='testId-pod-displaySubTitle']",
+      "priceSelector": "li[data-internet-price] , .copy10, span[data-internet-price]",
+      "linkSelector": "a",
+      "priceAttr": "data-internet-price"
+    },
+    "oechsle": {
+      "itemSelector": "article.product-item, .product-tile, .vtex-product-summary-2-x-container",
+      "titleSelector": ".product-item-name, h3, .vtex-product-summary-2-x-productBrand",
+      "priceSelector": ".price, .vtex-product-price-1-x-sellingPriceValue",
+      "linkSelector": "a"
+    },
+    "plazavea": {
+      "itemSelector": ".vtex-product-summary-2-x-container, article.product-item",
+      "titleSelector": ".vtex-product-summary-2-x-productBrand, .product-item-name, h3",
+      "priceSelector": ".vtex-product-price-1-x-sellingPriceValue, .price",
+      "linkSelector": "a"
+    },
+    "hiraoka": {
+      "itemSelector": "li.item.product.product-item, .product-item-info",
+      "titleSelector": ".product-item-link, a.product-item-link",
+      "priceSelector": ".price-wrapper .price, span.price",
+      "linkSelector": "a.product-item-link"
+    },
+    "ripley": {
+      "itemSelector": "a.catalog-product-item, div.catalog-product-details",
+      "titleSelector": ".catalog-product-details__name, .product-name",
+      "priceSelector": ".catalog-prices__offer-price, .product-price",
+      "linkSelector": "a"
+    },
+    "lacuracao": {
+      "itemSelector": "a[data-pod-type], div.pod, .vtex-product-summary-2-x-container",
+      "titleSelector": "b.pod-subTitle, .pod-title, .vtex-product-summary-2-x-productBrand",
+      "priceSelector": "li[data-internet-price], .vtex-product-price-1-x-sellingPriceValue",
+      "linkSelector": "a",
+      "priceAttr": "data-internet-price"
+    }
+  }
+}

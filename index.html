@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECO · Compara precios de tecnología en Perú</title>
+  <meta name="description" content="Compara precios de productos de tecnología entre las tiendas más grandes del Perú: Falabella, Ripley, Oechsle, Hiraoka, Plaza Vea y La Curacao." />
+  <link rel="icon" href="img/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TECO" />
+  <meta property="og:title" content="TECO · Compara precios de tecnología en Perú" />
+  <meta property="og:description" content="Busca un equipo, revisa sus características y mira el precio en las tiendas más grandes del Perú de un solo vistazo." />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="hero">
+    <div class="container center">
+      <p class="eyebrow">Comparador de tecnología · Perú</p>
+      <h1>Compara antes de comprar</h1>
+      <p class="sub">Busca un equipo, revisa sus características y mira el precio en las tiendas más grandes de un solo vistazo.</p>
+      <form class="searchbar" id="hero-search">
+        <input type="text" id="hero-q" placeholder="iPhone 16, Galaxy S24, MacBook Air, PS5…" aria-label="Buscar" />
+        <button class="btn btn-primary" type="submit">Buscar</button>
+      </form>
+      <div class="quick" id="quick-chips"></div>
+      <div class="hero-stores" id="hero-stores"></div>
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="container trust-row">
+      <div class="trust-item"><span class="trust-num" id="t-stores">6</span><span>tiendas comparadas</span></div>
+      <div class="trust-item"><span class="trust-num" id="t-products">—</span><span>productos en catálogo</span></div>
+      <div class="trust-item"><span class="trust-num">100%</span><span>compra en la tienda oficial</span></div>
+      <div class="trust-item"><span class="trust-num">S/0</span><span>comparar es gratis</span></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>Explora por categoría</h2><p class="muted">Encuentra rápido lo que buscas.</p></div>
+      </div>
+      <div class="cat-tiles" id="cat-tiles"></div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+      <div class="section-head">
+        <div><h2>Destacados</h2><p class="muted">Equipos populares con precio comparado.</p></div>
+        <a class="btn btn-ghost" href="productos.html">Ver todos</a>
+      </div>
+      <div class="grid grid-products" id="featured"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><div><h2>Cómo funciona</h2><p class="muted">Tres pasos para comprar mejor.</p></div></div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><h3>Busca</h3><p class="muted">Escribe el producto, modelo o una caracter&iacute;stica como &ldquo;128GB&rdquo; o &ldquo;16GB 512GB&rdquo;.</p></div>
+        <div class="step"><div class="num">2</div><h3>Compara</h3><p class="muted">Revisa precio y precio especial entre Falabella, Ripley, Hiraoka, Oechsle y m&aacute;s.</p></div>
+        <div class="step"><div class="num">3</div><h3>Compra</h3><p class="muted">Abre la tienda con el mejor precio y confirma antes de comprar.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="data.js"></script>
+  <script src="cards.js"></script>
+  <script src="nav.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

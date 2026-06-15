@@ -1,0 +1,27 @@
+# TECO - Actualización automática de precios (gratis, en la nube)
+# Funciona para FEEDS de afiliados (descarga archivos). El scraping NO va aquí
+# porque GitHub usa IPs de datacenter que las tiendas bloquean.
+name: Actualizar precios
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # cada 12 horas (UTC)
+  workflow_dispatch: {}        # permite ejecutarlo a mano
+permissions:
+  contents: write              # necesario para que el bot pueda hacer git push
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: node server/feed-import.js
+      - name: Guardar cambios
+        run: |
+          git config user.name "teco-bot"
+          git config user.email "bot@teco.local"
+          git add server/products.json server/retail-references.json
+          git commit -m "Actualización automática de precios" || echo "sin cambios"
+          git push

@@ -1,0 +1,8 @@
+[
+  { "id": "falabella", "name": "Falabella", "color": "#7cb342", "domain": "falabella.com.pe", "searchUrl": "https://www.falabella.com.pe/falabella-pe/search?Ntt={q}" },
+  { "id": "oechsle", "name": "Oechsle", "color": "#e4002b", "domain": "oechsle.pe", "searchUrl": "https://www.oechsle.pe/search/?text={q}" },
+  { "id": "plazavea", "name": "Plaza Vea", "color": "#e30613", "domain": "plazavea.com.pe", "searchUrl": "https://www.plazavea.com.pe/search/?text={q}" },
+  { "id": "hiraoka", "name": "Hiraoka", "color": "#003a70", "domain": "hiraoka.com.pe", "searchUrl": "https://hiraoka.com.pe/catalogsearch/result/?q={q}" },
+  { "id": "ripley", "name": "Ripley", "color": "#a4127f", "domain": "ripley.com.pe", "searchUrl": "https://simple.ripley.com.pe/search/{q}" },
+  { "id": "lacuracao", "name": "La Curacao", "color": "#e2001a", "domain": "lacuracao.pe", "searchUrl": "https://www.lacuracao.pe/lacuracao-pe/search?Ntt={q}" }
+]

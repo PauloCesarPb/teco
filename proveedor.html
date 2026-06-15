@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Afiliar tienda · TECO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <section class="section">
+    <div class="container">
+      <div class="prose center" style="max-width:620px">
+        <h2>Afilia tu tienda a TECO</h2>
+        <p class="muted">Publica tus ofertas y llega a clientes que ya están comparando precios. Revisamos cada solicitud antes de aprobarla.</p>
+      </div>
+      <div class="panel" style="max-width:620px;margin:24px auto 0">
+        <form class="form wide" id="prov-form">
+          <div class="field"><label>Nombre comercial *</label><input name="nombre" required /></div>
+          <div class="grid-2">
+            <div class="field"><label>RUC o documento</label><input name="ruc" /></div>
+            <div class="field"><label>Contacto *</label><input name="contacto" required /></div>
+          </div>
+          <div class="grid-2">
+            <div class="field"><label>Correo</label><input type="email" name="correo" /></div>
+            <div class="field"><label>WhatsApp</label><input name="whatsapp" placeholder="51999999999" /></div>
+          </div>
+          <div class="field"><label>Categoría de productos</label>
+            <select name="categoria">
+              <option value="">Selecciona…</option>
+              <option>Smartphones</option><option>Tablets</option><option>Laptops</option>
+              <option>Audífonos</option><option>Accesorios</option><option>Cargadores</option>
+            </select>
+          </div>
+          <div class="field"><label>Comentario o descripción</label><textarea name="comentario"></textarea></div>
+          <button class="btn btn-primary btn-block" type="submit">Enviar solicitud</button>
+          <div id="prov-msg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div id="site-footer"></div>
+  <script src="data.js"></script>
+  <script src="nav.js"></script>
+  <script src="proveedor.js"></script>
+</body>
+</html>

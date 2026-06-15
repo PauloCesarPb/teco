@@ -1,0 +1,12 @@
+{
+  "_comment": "Feeds de productos (idealmente de programas de afiliados como Soicos, Awin o Admitad, que cubren tiendas peruanas). Cada feed es un archivo CSV/JSON con tus links de afiliado. Reemplaza la URL de ejemplo por la tuya y el sistema importará precios reales automáticamente. Mientras no haya feeds reales, el programador usa el rastreador como respaldo.",
+  "feeds": [
+    {
+      "name": "EJEMPLO - reemplázame",
+      "url": "https://EJEMPLO-pon-aqui-la-url-de-tu-feed.csv",
+      "format": "csv",
+      "store": "falabella",
+      "map": { "name": "product_name", "price": "price", "specialPrice": "sale_price", "link": "deeplink", "image": "image_url", "brand": "brand", "category": "category" }
+    }
+  ]
+}

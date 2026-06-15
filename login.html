@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión · TECO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <div class="auth-wrap">
+    <div class="panel auth-card">
+      <h2 style="text-align:center">Iniciar sesión</h2>
+      <p class="muted" style="text-align:center;margin-bottom:18px">Accede a tu panel de TECO.</p>
+      <div class="tabs">
+        <button class="active" data-role="proveedor" type="button">Proveedor</button>
+        <button data-role="admin" type="button">Administrador</button>
+      </div>
+      <form class="form" id="login-form" style="max-width:100%">
+        <div class="field"><label>Usuario</label><input id="user" autocomplete="username" /></div>
+        <div class="field"><label>Contraseña</label><input id="pass" type="password" autocomplete="current-password" /></div>
+        <button class="btn btn-primary btn-block" type="submit">Entrar</button>
+        <div id="login-msg"></div>
+      </form>
+    </div>
+  </div>
+  <div id="site-footer"></div>
+  <script src="data.js"></script>
+  <script src="nav.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

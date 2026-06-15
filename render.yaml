@@ -1,0 +1,31 @@
+# TECO en Render (https://render.com)
+# Opción A (fácil): en Render elige "New +" → "Blueprint" y apunta a este repo;
+#   leerá este archivo y configurará todo solo.
+# Opción B (manual, lo que ya empezaste): "New Web Service" con estos valores:
+#   - Build Command:  npm install
+#   - Start Command:  node server/server.js
+#   - Y agrega las variables de entorno de abajo.
+services:
+  - type: web
+    name: teco
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server/server.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      # Secreto para firmar las sesiones: Render lo genera solo y lo mantiene
+      # estable (así no te desloguea en cada reinicio).
+      - key: TECO_SECRET
+        generateValue: true
+      # Contraseñas de los paneles: Render te las pedirá al desplegar
+      # (no quedan guardadas en el repo).
+      - key: ADMIN_PASS
+        sync: false
+      - key: PROVIDER_PASS
+        sync: false
+      # Cada cuántas horas reimporta los feeds estando despierto.
+      - key: AUTO_REFRESH_HOURS
+        value: "6"

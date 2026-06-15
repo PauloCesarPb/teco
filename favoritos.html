@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis favoritos · TECO</title>
+  <meta name="description" content="Tus productos guardados en TECO para comparar precios cuando quieras." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <section class="section">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:18px">
+        <div><h2>Mis favoritos</h2><p class="muted">Los productos que guardaste para comparar más tarde.</p></div>
+        <a class="btn btn-ghost btn-sm" href="productos.html">Seguir explorando</a>
+      </div>
+      <div class="grid grid-products" id="fav-grid"></div>
+      <div class="empty" id="fav-empty" style="display:none">
+        Aún no has guardado productos. Toca el <b>♥</b> en cualquier producto para guardarlo aquí.
+        <div style="margin-top:14px"><a class="btn btn-primary" href="productos.html">Ver productos</a></div>
+      </div>
+    </div>
+  </section>
+  <div id="site-footer"></div>
+  <script src="data.js"></script>
+  <script src="cards.js"></script>
+  <script src="nav.js"></script>
+  <script src="favoritos.js"></script>
+</body>
+</html>

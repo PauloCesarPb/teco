@@ -1,0 +1,33 @@
+{
+  "name": "teco",
+  "version": "1.0.0",
+  "description": "TECO - Comparador de precios de productos tecnológicos (Perú)",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "install-browsers": "playwright install chromium",
+    "import": "node server/import.js",
+    "crawl": "node server/catalog-crawler.js",
+    "schedule": "node server/scheduler.js",
+    "feeds": "node server/feed-import.js"
+  },
+  "keywords": [
+    "comparador",
+    "precios",
+    "tecnologia",
+    "peru"
+  ],
+  "author": "TECO",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.44.0"
+  }
+}

@@ -1,0 +1,6 @@
+# Normaliza los finales de línea: en el repo se guardan como LF (Linux),
+# evitando diffs espurios cuando el bot de GitHub Actions actualiza precios.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.svg text

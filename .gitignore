@@ -1,0 +1,6 @@
+node_modules/
+server/providers.json
+server/offers.json
+server/searches.json
+server/feed-status.json
+server/.secret
