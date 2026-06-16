@@ -44,7 +44,9 @@ window.CN = (function () {
       const logo = logoFor(c);
       if (ref) {
         const verified = !!ref.verified;
-        const hasExactLink = !!(ref.link && verified);
+        // Si la referencia trae un enlace, lo usamos como ficha exacta del
+        // producto (mejor que mandar al buscador de la tienda).
+        const hasExactLink = !!ref.link;
         return { companyId: c.id, company: c.name, color: c.color, logo,
           price: ref.price != null ? ref.price : null,
           specialPrice: ref.specialPrice != null ? ref.specialPrice : null,

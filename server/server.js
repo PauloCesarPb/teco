@@ -240,7 +240,8 @@ function pricesForProduct(productId) {
     const logo = c.domain ? `https://www.google.com/s2/favicons?domain=${c.domain}&sz=64` : null;
     if (ref) {
       const verified = !!ref.verified;
-      const hasExactLink = !!(ref.link && verified);
+      // Si la referencia trae enlace, lo usamos como ficha exacta del producto.
+      const hasExactLink = !!ref.link;
       return {
         companyId: c.id,
         company: c.name,
