@@ -1,4 +1,5 @@
 node_modules/
+server/users.json
 server/providers.json
 server/offers.json
 server/searches.json

@@ -20,7 +20,7 @@ app.use(express.json({ limit: "1mb" }));
  * que NO se borren al redesplegar en Render. El resto (catálogo, fuentes…)
  * sigue en archivos versionados en Git. readJson/writeJson siguen siendo
  * síncronos gracias a una caché en memoria respaldada en la base de datos. */
-const DB_KEYS = new Set(["providers.json", "offers.json", "searches.json", "feed-status.json"]);
+const DB_KEYS = new Set(["users.json", "providers.json", "offers.json", "searches.json", "feed-status.json"]);
 let pool = null;
 const cache = {};
 
@@ -80,11 +80,30 @@ function gracefulExit() {
 process.on("SIGTERM", gracefulExit);
 process.on("SIGINT", gracefulExit);
 
-/* ---------- Credenciales (no se muestran en la web) ---------- */
-const USERS = {
-  admin: process.env.ADMIN_PASS || "teco2025",
-  proveedor: process.env.PROVIDER_PASS || "proveedor2025",
-};
+/* ---------- Cuentas de usuario ----------
+ * Todas las cuentas (comprador, proveedor, admin) viven en users.json (en la
+ * base de datos). El rol de la cuenta decide a dónde entra cada quien. */
+function getUsers() { return readJson("users.json", []); }
+function saveUsers(u) { writeJson("users.json", u); }
+function findUser(email) {
+  const e = (email || "").trim().toLowerCase();
+  return getUsers().find((u) => (u.email || "").toLowerCase() === e);
+}
+function publicUser(u) { const { passwordHash, ...rest } = u; return rest; }
+
+// Crea la cuenta admin si no existe (correo/clave desde el entorno).
+function seedAdmin() {
+  if (getUsers().some((u) => u.role === "admin")) return;
+  const email = (process.env.ADMIN_EMAIL || "admin@teco.pe").trim().toLowerCase();
+  const users = getUsers();
+  users.push({
+    id: "usr-admin", nombre: "Administrador", email,
+    passwordHash: hashPassword(process.env.ADMIN_PASS || "teco2025"),
+    role: "admin", estado: "Activo", fecha: new Date().toISOString().slice(0, 10),
+  });
+  saveUsers(users);
+  console.log(`Cuenta admin lista: ${email}`);
+}
 
 /* ---------- Sesiones: tokens firmados (HMAC-SHA256) ---------- *
  * El token es `payload.firma` donde payload = base64url("rol:expira").
@@ -420,47 +439,63 @@ app.post("/api/validate-prices/:productId", auth(["admin"]), async (req, res) =>
   res.json({ productId: product.id, name: product.name, results });
 });
 
-/* ---------- Proveedores (solicitudes) ---------- */
-app.get("/api/providers", auth(["admin"]), (req, res) => {
-  // Nunca exponemos el hash de la contraseña.
-  res.json(readJson("providers.json", []).map(({ passwordHash, ...rest }) => rest));
-});
-// Registro de proveedor: crea una cuenta con correo + contraseña en estado
-// "Pendiente". No puede iniciar sesión hasta que el admin la apruebe.
-app.post("/api/providers", (req, res) => {
+/* ---------- Registro de comprador (cuenta normal) ---------- */
+app.post("/api/register", (req, res) => {
   const b = req.body || {};
-  const correo = (b.correo || "").trim().toLowerCase();
-  if (!b.nombre || !b.contacto || !correo || !b.password) {
-    return res.status(400).json({ error: "Nombre, contacto, correo y contraseña son obligatorios" });
+  const email = (b.email || b.correo || "").trim().toLowerCase();
+  const nombre = (b.nombre || "").trim();
+  if (!nombre || !email || !b.password) {
+    return res.status(400).json({ error: "Nombre, correo y contraseña son obligatorios" });
   }
-  if (String(b.password).length < 6) {
-    return res.status(400).json({ error: "La contraseña debe tener al menos 6 caracteres" });
-  }
-  const providers = readJson("providers.json", []);
-  if (providers.some((p) => (p.correo || "").toLowerCase() === correo)) {
+  if (!/^\S+@\S+\.\S+$/.test(email)) return res.status(400).json({ error: "Correo no válido" });
+  if (String(b.password).length < 6) return res.status(400).json({ error: "La contraseña debe tener al menos 6 caracteres" });
+  const users = getUsers();
+  if (users.some((u) => (u.email || "").toLowerCase() === email)) {
     return res.status(409).json({ error: "Ya existe una cuenta con ese correo" });
   }
-  const entry = {
-    id: "prov-" + Date.now(),
-    nombre: b.nombre, ruc: b.ruc || "", contacto: b.contacto,
-    correo, whatsapp: b.whatsapp || "",
+  const user = {
+    id: "usr-" + Date.now(), nombre, email,
+    passwordHash: hashPassword(b.password),
+    role: "comprador", estado: "Activo", fecha: new Date().toISOString().slice(0, 10),
+  };
+  users.push(user); saveUsers(users);
+  // Lo dejamos con sesión iniciada de una vez.
+  res.json({ ok: true, role: "comprador", nombre, token: signToken("comprador", user.id) });
+});
+
+/* ---------- Afiliación de tienda (crea cuenta de proveedor pendiente) ---------- */
+app.get("/api/providers", auth(["admin"]), (req, res) => {
+  res.json(getUsers().filter((u) => u.role === "proveedor").map(publicUser));
+});
+app.post("/api/providers", (req, res) => {
+  const b = req.body || {};
+  const email = (b.correo || b.email || "").trim().toLowerCase();
+  if (!b.nombre || !b.contacto || !email || !b.password) {
+    return res.status(400).json({ error: "Nombre, contacto, correo y contraseña son obligatorios" });
+  }
+  if (String(b.password).length < 6) return res.status(400).json({ error: "La contraseña debe tener al menos 6 caracteres" });
+  const users = getUsers();
+  if (users.some((u) => (u.email || "").toLowerCase() === email)) {
+    return res.status(409).json({ error: "Ya existe una cuenta con ese correo" });
+  }
+  const user = {
+    id: "prov-" + Date.now(), nombre: b.nombre, email,
+    ruc: b.ruc || "", contacto: b.contacto, whatsapp: b.whatsapp || "",
     categoria: b.categoria || "", comentario: b.comentario || "",
     passwordHash: hashPassword(b.password),
-    estado: "Pendiente", fecha: new Date().toISOString().slice(0, 10),
+    role: "proveedor", estado: "Pendiente", fecha: new Date().toISOString().slice(0, 10),
   };
-  providers.push(entry);
-  writeJson("providers.json", providers);
-  const { passwordHash, ...safe } = entry;
-  res.json({ ok: true, provider: safe });
+  users.push(user); saveUsers(users);
+  res.json({ ok: true, provider: publicUser(user) });
 });
 app.post("/api/providers/:id/:action", auth(["admin"]), (req, res) => {
-  const providers = readJson("providers.json", []);
-  const p = providers.find((x) => x.id === req.params.id);
-  if (!p) return res.status(404).json({ error: "No encontrado" });
+  const users = getUsers();
+  const u = users.find((x) => x.id === req.params.id && x.role === "proveedor");
+  if (!u) return res.status(404).json({ error: "No encontrado" });
   const map = { approve: "Aprobado", reject: "Rechazado" };
-  p.estado = map[req.params.action] || p.estado;
-  writeJson("providers.json", providers);
-  res.json({ ok: true, provider: p });
+  u.estado = map[req.params.action] || u.estado;
+  saveUsers(users);
+  res.json({ ok: true, provider: publicUser(u) });
 });
 
 /* ---------- Ofertas de proveedores ---------- */
@@ -477,7 +512,7 @@ app.post("/api/offers", auth(["admin", "proveedor"]), (req, res) => {
   let providerId, proveedorNombre;
   if (req.session.role === "proveedor") {
     providerId = req.session.pid;
-    const prov = readJson("providers.json", []).find((p) => p.id === providerId);
+    const prov = getUsers().find((u) => u.id === providerId);
     proveedorNombre = prov ? prov.nombre : "Proveedor";
     if (existing && existing.providerId && existing.providerId !== providerId) {
       return res.status(403).json({ error: "No puedes editar ofertas de otro proveedor" });
@@ -506,34 +541,24 @@ app.get("/api/my-offers", auth(["proveedor"]), (req, res) => {
   res.json(readJson("offers.json", []).filter((o) => o.providerId === req.session.pid));
 });
 
-/* ---------- Login básico (servidor) ---------- */
+/* ---------- Login unificado ----------
+ * Un solo formulario: correo + contraseña. El rol de la cuenta (comprador,
+ * proveedor o admin) decide a dónde entra. Los proveedores solo pueden
+ * iniciar sesión si su cuenta fue aprobada. */
 app.post("/api/login", (req, res) => {
-  const { role, password } = req.body || {};
-
-  // Proveedor: inicia sesión con su propio correo + contraseña, y solo si su
-  // cuenta fue aprobada por el admin.
-  if (role === "proveedor") {
-    const correo = ((req.body.email || req.body.correo || "")).trim().toLowerCase();
-    const prov = readJson("providers.json", []).find((p) => (p.correo || "").toLowerCase() === correo);
-    if (!prov || !verifyPassword(password, prov.passwordHash)) {
-      return res.status(401).json({ ok: false, error: "Correo o contraseña incorrectos" });
-    }
-    if (prov.estado !== "Aprobado") {
-      const msg = prov.estado === "Rechazado"
-        ? "Tu cuenta fue rechazada. Escríbenos para más información."
-        : "Tu cuenta aún está pendiente de aprobación. Te avisaremos cuando esté lista.";
-      return res.status(403).json({ ok: false, error: msg });
-    }
-    return res.json({ ok: true, role: "proveedor", nombre: prov.nombre, token: signToken("proveedor", prov.id) });
+  const b = req.body || {};
+  const email = (b.email || b.correo || "").trim().toLowerCase();
+  const user = getUsers().find((u) => (u.email || "").toLowerCase() === email);
+  if (!user || !verifyPassword(b.password, user.passwordHash)) {
+    return res.status(401).json({ ok: false, error: "Correo o contraseña incorrectos" });
   }
-
-  // Admin: contraseña compartida (comparación en tiempo constante).
-  const expected = USERS.admin;
-  const ok = role === "admin" && typeof expected === "string" && typeof password === "string" &&
-    expected.length === password.length &&
-    crypto.timingSafeEqual(Buffer.from(expected), Buffer.from(password));
-  if (ok) return res.json({ ok: true, role: "admin", token: signToken("admin") });
-  res.status(401).json({ ok: false, error: "Credenciales incorrectas" });
+  if (user.role === "proveedor" && user.estado !== "Aprobado") {
+    const msg = user.estado === "Rechazado"
+      ? "Tu cuenta de tienda fue rechazada. Escríbenos para más información."
+      : "Tu cuenta de tienda está pendiente de aprobación. Te avisaremos cuando esté lista.";
+    return res.status(403).json({ ok: false, error: msg });
+  }
+  res.json({ ok: true, role: user.role, nombre: user.nombre, token: signToken(user.role, user.id) });
 });
 
 // Comprueba que el token siga siendo válido (lo usan los guards de panel).
@@ -712,6 +737,7 @@ app.use(express.static(ROOT, {
 }));
 
 function start() {
+  seedAdmin();
   app.listen(PORT, () => {
   console.log(`TECO corriendo en http://localhost:${PORT}`);
   if (REFRESH_HOURS > 0) {

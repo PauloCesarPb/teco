@@ -12,8 +12,11 @@
 
   let sessionLink = `<a class="nav-cta" href="login.html">Iniciar sesión</a>`;
   if (isLogged) {
-    const panel = role === "admin" ? "admin.html" : "panel-proveedor.html";
-    sessionLink = `<a href="${panel}">Mi panel</a><a class="nav-cta" href="#" id="cn-logout">Salir</a>`;
+    let mine;
+    if (role === "admin") mine = `<a href="admin.html">Mi panel</a>`;
+    else if (role === "proveedor") mine = `<a href="panel-proveedor.html">Mi panel</a>`;
+    else mine = `<a href="favoritos.html">Mis favoritos</a>`;
+    sessionLink = `${mine}<a class="nav-cta" href="#" id="cn-logout">Salir</a>`;
   }
 
   const header = `
