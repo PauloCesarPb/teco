@@ -404,17 +404,17 @@ tr:last-child td { border-bottom: 0; }
 .trust-num { font-family: var(--display); font-weight: 700; font-size: 1.25rem; color: #fff; }
 
 /* Tiles de categoría */
-.cat-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 14px; }
+.cat-tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
 .cat-tile {
-  display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
-  background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 14px;
+  display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px;
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 30px 16px;
   transition: transform .12s, box-shadow .12s, border-color .12s;
 }
 .cat-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #d7def0; }
-.cat-tile-ic { width: 52px; height: 52px; border-radius: 14px; background: var(--blue-soft); color: var(--blue); display: flex; align-items: center; justify-content: center; }
-.cat-tile-ic svg { width: 28px; height: 28px; }
-.cat-tile-name { font-weight: 600; font-size: .98rem; }
-.cat-tile-count { font-size: .78rem; color: var(--muted); }
+.cat-tile-ic { width: 64px; height: 64px; border-radius: 18px; background: var(--blue-soft); color: var(--blue); display: flex; align-items: center; justify-content: center; margin-bottom: 4px; }
+.cat-tile-ic svg { width: 34px; height: 34px; }
+.cat-tile-name { font-weight: 700; font-size: 1.05rem; }
+.cat-tile-count { font-size: .82rem; color: var(--muted); }
 
 /* Catálogo con filtros */
 .catalog { display: grid; grid-template-columns: 248px 1fr; gap: 26px; align-items: start; }

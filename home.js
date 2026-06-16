@@ -1,4 +1,4 @@
-/* TECO - Home */
+/* TECO - Home (inicio por categorías) */
 (async function () {
   const search = document.getElementById("hero-search");
   search.addEventListener("submit", (e) => {
@@ -7,13 +7,7 @@
     location.href = "buscador-online.html" + (q ? "?q=" + encodeURIComponent(q) : "");
   });
 
-  // Esqueletos mientras carga
-  const grid = document.getElementById("featured");
-  if (grid) grid.innerHTML = CNCards.skeletons(8);
-
-  const [products, companies, refs] = await Promise.all([
-    CN.getProducts(), CN.getCompanies(), CN.getReferences(),
-  ]);
+  const [products, companies] = await Promise.all([CN.getProducts(), CN.getCompanies()]);
 
   // Métricas
   const tp = document.getElementById("t-products"); if (tp) tp.textContent = products.length + "+";
@@ -33,7 +27,7 @@
     chips.appendChild(c);
   });
 
-  // Tiles de categoría
+  // Categorías = protagonista del inicio. Al tocar una, vas a sus productos.
   const counts = {};
   products.forEach((p) => { counts[p.category] = (counts[p.category] || 0) + 1; });
   const tiles = document.getElementById("cat-tiles");
@@ -43,11 +37,4 @@
       <span class="cat-tile-name">${CN.esc(c)}</span>
       <span class="cat-tile-count">${counts[c]} ${counts[c] === 1 ? "producto" : "productos"}</span>
     </a>`).join("");
-
-  // Destacados (con precio comparado primero)
-  const withBest = products.map((p) => ({ p, b: CN.bestStore(CN.storesFor(companies, refs, p)) }));
-  const priced = withBest.filter((x) => x.b && x.b.price != null).map((x) => x.p);
-  const featuredList = (priced.length ? priced : products).slice(0, 8);
-  grid.innerHTML = featuredList.map((p) => CNCards.card(p, CN.storesFor(companies, refs, p))).join("");
-  CNCards.initFavorites(grid);
 })();
