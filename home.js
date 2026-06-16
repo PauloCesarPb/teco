@@ -1,4 +1,4 @@
-/* TECO - Home (inicio por categorías) */
+/* TECO - Home (inicio por categorías, productos en línea) */
 (async function () {
   const search = document.getElementById("hero-search");
   search.addEventListener("submit", (e) => {
@@ -7,7 +7,9 @@
     location.href = "buscador-online.html" + (q ? "?q=" + encodeURIComponent(q) : "");
   });
 
-  const [products, companies] = await Promise.all([CN.getProducts(), CN.getCompanies()]);
+  const [products, companies, refs] = await Promise.all([
+    CN.getProducts(), CN.getCompanies(), CN.getReferences(),
+  ]);
 
   // Métricas
   const tp = document.getElementById("t-products"); if (tp) tp.textContent = products.length + "+";
@@ -27,14 +29,48 @@
     chips.appendChild(c);
   });
 
-  // Categorías = protagonista del inicio. Al tocar una, vas a sus productos.
+  // Categorías = protagonista. Al tocar una, sus productos se despliegan abajo.
   const counts = {};
   products.forEach((p) => { counts[p.category] = (counts[p.category] || 0) + 1; });
   const tiles = document.getElementById("cat-tiles");
-  if (tiles) tiles.innerHTML = Object.keys(counts).map((c) => `
-    <a class="cat-tile" href="productos.html?cat=${encodeURIComponent(c)}">
-      <span class="cat-tile-ic">${CNCards.icon(c)}</span>
-      <span class="cat-tile-name">${CN.esc(c)}</span>
-      <span class="cat-tile-count">${counts[c]} ${counts[c] === 1 ? "producto" : "productos"}</span>
-    </a>`).join("");
+  const panel = document.getElementById("cat-products");
+  const MAX = 12;
+
+  let current = null;
+  function showCategory(cat) {
+    // Tocar la misma categoría la cierra.
+    if (current === cat) {
+      current = null;
+      panel.innerHTML = "";
+      tiles.querySelectorAll(".cat-tile").forEach((t) => t.classList.remove("active"));
+      return;
+    }
+    current = cat;
+    tiles.querySelectorAll(".cat-tile").forEach((t) => t.classList.toggle("active", t.dataset.cat === cat));
+    const list = products.filter((p) => p.category === cat);
+    const shown = list.slice(0, MAX);
+    const verTodos = `<a class="btn btn-ghost btn-sm" href="productos.html?cat=${encodeURIComponent(cat)}">Ver todos y filtrar</a>`;
+    panel.innerHTML = `
+      <div class="section-head" style="margin-top:30px;margin-bottom:14px">
+        <div><h3 style="margin:0">${CN.esc(cat)} <span class="muted" style="font-weight:400">· ${list.length} productos</span></h3></div>
+        ${verTodos}
+      </div>
+      <div class="prow-list">${shown.map((p) => CNCards.row(p, CN.storesFor(companies, refs, p))).join("")}</div>
+      ${list.length > MAX ? `<div class="center" style="margin-top:16px"><a class="btn btn-ghost" href="productos.html?cat=${encodeURIComponent(cat)}">Ver los ${list.length} de ${CN.esc(cat)} →</a></div>` : ""}`;
+    CNCards.initFavorites(panel);
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  if (tiles) {
+    tiles.innerHTML = Object.keys(counts).map((c) => `
+      <a class="cat-tile" href="productos.html?cat=${encodeURIComponent(c)}" data-cat="${CN.esc(c)}">
+        <span class="cat-tile-ic">${CNCards.icon(c)}</span>
+        <span class="cat-tile-name">${CN.esc(c)}</span>
+        <span class="cat-tile-count">${counts[c]} ${counts[c] === 1 ? "producto" : "productos"}</span>
+      </a>`).join("");
+    tiles.querySelectorAll(".cat-tile").forEach((t) => t.addEventListener("click", (e) => {
+      e.preventDefault();
+      showCategory(t.dataset.cat);
+    }));
+  }
 })();

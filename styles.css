@@ -415,6 +415,14 @@ tr:last-child td { border-bottom: 0; }
 .cat-tile-ic svg { width: 34px; height: 34px; }
 .cat-tile-name { font-weight: 700; font-size: 1.05rem; }
 .cat-tile-count { font-size: .82rem; color: var(--muted); }
+/* Fondo de color suave por categoría (combina con el color del ícono) */
+.cat-tile:nth-child(5n+1) { background:#f5f3ff; border-color:#e7e2ff; }
+.cat-tile:nth-child(5n+2) { background:#eefbf5; border-color:#d7f3e6; }
+.cat-tile:nth-child(5n+3) { background:#fef2f7; border-color:#fbdce8; }
+.cat-tile:nth-child(5n+4) { background:#fff8ed; border-color:#fce8cf; }
+.cat-tile:nth-child(5n+5) { background:#eff7ff; border-color:#d8ebfd; }
+.cat-tile.active { border-color: var(--blue); box-shadow: var(--shadow); transform: translateY(-2px); }
+.cat-tile.active::after { content:"▾"; color: var(--blue); font-size: 1rem; line-height: 0; margin-top: 2px; }
 
 /* Catálogo con filtros */
 .catalog { display: grid; grid-template-columns: 248px 1fr; gap: 26px; align-items: start; }
