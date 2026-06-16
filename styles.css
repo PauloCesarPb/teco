@@ -215,6 +215,14 @@ tr:last-child td { border-bottom: 0; }
 .store-search-link img { width: 22px; height: 22px; border-radius: 5px; }
 .store-search-link .dot { width: 14px; height: 14px; border-radius: 50%; }
 .store-search-link svg { width: 16px; height: 16px; margin-left: auto; color: var(--muted); }
+/* Ofertas de proveedores (terceros) */
+.offer-row { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius-sm); margin-bottom: 10px; background: #fff; }
+.offer-row:hover { border-color: #cbd5e1; box-shadow: var(--shadow-sm); }
+.offer-info { flex: 1; min-width: 0; }
+.offer-info .s-name { font-weight: 700; }
+.offer-info .s-meta { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+.offer-best { font-size: .7rem; color: #16a34a; background: #eafaf0; padding: 2px 8px; border-radius: 999px; margin-left: 6px; font-weight: 700; white-space: nowrap; }
+.offer-price { font-family: var(--display); font-weight: 700; font-size: 1.2rem; flex-shrink: 0; }
 .toolbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 20px; }
 .toolbar select, .toolbar input { padding: 9px 12px; border: 1px solid var(--line); border-radius: var(--radius-sm); font: inherit; }
 .pill { font-size: .78rem; padding: 4px 10px; border-radius: 999px; background: var(--bg-soft); color: var(--muted); }

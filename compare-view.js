@@ -92,17 +92,27 @@ window.CNCompare = {
         <ul class="specs">${product.specs.map((x) => `<li><span>${CN.esc(x.label)}</span><span>${CN.esc(x.value)}</span></li>`).join("")}</ul>
       </div>` : "";
 
-    // --- Ofertas de proveedores (opcional) ---
-    const offers = opts.offers || [];
+    // --- Ofertas de proveedores (terceros) ---
+    const offers = (opts.offers || []).slice().sort((a, b) => (a.price != null ? a.price : Infinity) - (b.price != null ? b.price : Infinity));
+    const bestStorePrice = priced.length ? Math.min(...priced.map((s) => CN.effective(s))) : null;
     const offersBlock = opts.offers ? `
       <div class="cmp-offers">
         <h3>Ofertas de proveedores afiliados</h3>
-        ${offers.length ? offers.map((o) => `
-          <div class="store-row">
-            <div><div class="s-name">${CN.esc(o.proveedor)}</div><div class="s-meta">${o.garantia ? "Garantía: " + CN.esc(o.garantia) + " · " : ""}${o.delivery ? "Delivery: " + CN.esc(o.delivery) : ""}</div></div>
-            <div class="${o.price ? "s-price" : "s-price consult"}">${o.price ? CN.money(o.price) : "Consultar"}</div>
-            ${o.whatsapp ? `<a class="btn btn-ghost btn-sm" target="_blank" rel="noopener" href="https://wa.me/${encodeURIComponent(String(o.whatsapp).replace(/\D/g,''))}">WhatsApp</a>` : `<span class="pill">Sin contacto</span>`}
-          </div>`).join("") : `<p class="muted">Aún no hay ofertas de proveedores para este producto.</p>`}
+        <p class="muted" style="margin:-6px 0 14px">Vendedores terceros verificados que compiten con las tiendas grandes.</p>
+        ${offers.length ? offers.map((o) => {
+          const saving = (o.price != null && bestStorePrice != null && o.price < bestStorePrice) ? bestStorePrice - o.price : 0;
+          const wsp = String(o.whatsapp || "").replace(/\D/g, "");
+          const meta = [o.stock ? "Stock: " + CN.esc(o.stock) : "", o.garantia ? "Garantía " + CN.esc(o.garantia) : "", o.delivery ? "Delivery " + CN.esc(o.delivery) : ""].filter(Boolean).join(" · ");
+          return `
+          <div class="offer-row">
+            <div class="offer-info">
+              <div class="s-name">${CN.esc(o.proveedor)}${saving > 0 ? ` <span class="offer-best">↓ ahorras ${CN.money(saving)} vs tiendas</span>` : ""}</div>
+              ${meta ? `<div class="s-meta">${meta}</div>` : ""}
+            </div>
+            <div class="offer-price">${o.price != null ? CN.money(o.price) : "Consultar"}</div>
+            ${wsp ? `<a class="btn btn-primary btn-sm" target="_blank" rel="noopener" href="https://wa.me/${wsp}">WhatsApp</a>` : `<span class="pill">Sin contacto</span>`}
+          </div>`;
+        }).join("") : `<p class="muted">Aún no hay ofertas de proveedores para este producto.</p>`}
       </div>` : "";
 
     container.innerHTML = `
