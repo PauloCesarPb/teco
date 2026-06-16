@@ -14,17 +14,71 @@ const DATA = __dirname;
 
 app.use(express.json({ limit: "1mb" }));
 
-/* ---------- Utilidades de archivos JSON ---------- */
-function readJson(file, fallback) {
+/* ---------- Almacenamiento: archivos JSON + Postgres opcional ----------
+ * Las colecciones que generan los usuarios (cuentas de proveedor, ofertas,
+ * búsquedas, estado de feeds) se guardan en Postgres si hay DATABASE_URL, para
+ * que NO se borren al redesplegar en Render. El resto (catálogo, fuentes…)
+ * sigue en archivos versionados en Git. readJson/writeJson siguen siendo
+ * síncronos gracias a una caché en memoria respaldada en la base de datos. */
+const DB_KEYS = new Set(["providers.json", "offers.json", "searches.json", "feed-status.json"]);
+let pool = null;
+const cache = {};
+
+function fileRead(file, fallback) {
+  try { return JSON.parse(fs.readFileSync(path.join(DATA, file), "utf8")); }
+  catch (e) { return fallback; }
+}
+
+async function initStorage() {
+  if (!process.env.DATABASE_URL) {
+    console.log("Sin DATABASE_URL → datos en archivos JSON (efímeros en Render free).");
+    return;
+  }
   try {
-    return JSON.parse(fs.readFileSync(path.join(DATA, file), "utf8"));
+    const { Pool } = require("pg");
+    pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false }, max: 5 });
+    await pool.query("CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY, value JSONB NOT NULL)");
+    for (const key of DB_KEYS) {
+      const r = await pool.query("SELECT value FROM kv WHERE key=$1", [key]);
+      if (r.rows.length) {
+        cache[key] = r.rows[0].value;
+      } else {
+        cache[key] = fileRead(key, key === "feed-status.json" ? {} : []);
+        await pool.query("INSERT INTO kv(key,value) VALUES($1,$2::jsonb) ON CONFLICT(key) DO NOTHING", [key, JSON.stringify(cache[key])]);
+      }
+    }
+    console.log("Base de datos Postgres conectada (Neon). Datos durables activos.");
   } catch (e) {
-    return fallback;
+    console.error("No se pudo conectar a Postgres, uso archivos:", e.message);
+    pool = null;
   }
 }
+
+function readJson(file, fallback) {
+  if (pool && DB_KEYS.has(file)) return cache[file] !== undefined ? cache[file] : fallback;
+  return fileRead(file, fallback);
+}
+let pendingWrites = [];
 function writeJson(file, data) {
+  if (pool && DB_KEYS.has(file)) {
+    cache[file] = data;
+    const p = pool.query("INSERT INTO kv(key,value) VALUES($1,$2::jsonb) ON CONFLICT(key) DO UPDATE SET value=$2::jsonb",
+      [file, JSON.stringify(data)]).catch((e) => console.error("Error guardando en DB:", e.message));
+    pendingWrites.push(p);
+    p.finally(() => { pendingWrites = pendingWrites.filter((x) => x !== p); });
+    return;
+  }
   fs.writeFileSync(path.join(DATA, file), JSON.stringify(data, null, 2), "utf8");
 }
+
+// Cierre ordenado: al recibir SIGTERM (redeploy de Render) esperamos a que las
+// escrituras pendientes terminen antes de salir, para no perder datos.
+function gracefulExit() {
+  Promise.allSettled(pendingWrites).then(() => process.exit(0));
+  setTimeout(() => process.exit(0), 5000); // tope de seguridad
+}
+process.on("SIGTERM", gracefulExit);
+process.on("SIGINT", gracefulExit);
 
 /* ---------- Credenciales (no se muestran en la web) ---------- */
 const USERS = {
@@ -657,7 +711,8 @@ app.use(express.static(ROOT, {
   },
 }));
 
-app.listen(PORT, () => {
+function start() {
+  app.listen(PORT, () => {
   console.log(`TECO corriendo en http://localhost:${PORT}`);
   if (REFRESH_HOURS > 0) {
     console.log(`Actualización automática de feeds cada ${REFRESH_HOURS} h (AUTO_REFRESH_HOURS=0 para desactivar).`);
@@ -665,4 +720,8 @@ app.listen(PORT, () => {
     setTimeout(() => refreshFeeds("inicio"), 15000);
     setInterval(() => refreshFeeds("auto"), REFRESH_HOURS * 3600000);
   }
-});
+  });
+}
+
+// Cargamos la base de datos (si hay) y recién ahí levantamos el servidor.
+initStorage().finally(start);
