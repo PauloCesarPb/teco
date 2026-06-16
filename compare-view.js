@@ -36,10 +36,11 @@ window.CNCompare = {
         </div>`;
     }
 
-    // --- Tabla de tiendas ---
-    const rows = stores.map((s) => {
+    // --- Tabla de tiendas (solo las que tienen precio; ocultamos "Consultar") ---
+    const priced = stores.filter((s) => s.price != null || s.specialPrice != null);
+    const rows = priced.map((s) => {
       const isBest = best && s.companyId === best.companyId;
-      const priceTxt = s.price != null ? CN.money(s.price) + (s.estimate ? ' <span class="ref-tag" title="Precio referencial, por validar">ref.</span>' : '') : "Consultar";
+      const priceTxt = s.price != null ? CN.money(s.price) + (s.estimate ? ' <span class="ref-tag" title="Precio referencial, por validar">ref.</span>' : '') : "—";
       const specialTxt = s.specialPrice != null ? CN.money(s.specialPrice) : "—";
       const btnLabel = s.hasExactLink ? "Ver producto" : "Ver precio";
       return `
@@ -53,6 +54,25 @@ window.CNCompare = {
           <td class="action-cell"><a class="btn btn-ghost btn-sm" href="${s.link}" target="_blank" rel="noopener">${btnLabel}</a></td>
         </tr>`;
     }).join("");
+
+    // Si ninguna tienda tiene precio validado, en vez de una tabla vacía
+    // ofrecemos buscar el producto en cada tienda.
+    const tableBlock = priced.length ? `
+          <h3 class="cmp-title">Precio en cada tienda</h3>
+          <div class="table-wrap cmp-table-wrap">
+            <table class="cmp-table">
+              <thead><tr><th>Tienda</th><th>Precio</th><th>Precio especial</th><th></th></tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>` : `
+          <h3 class="cmp-title">Búscalo en las tiendas</h3>
+          <p class="muted" style="margin:-6px 0 14px">Aún no validamos un precio para este producto. Búscalo directo en cada tienda:</p>
+          <div class="store-search-grid">${stores.map((s) => `
+            <a class="store-search-link" target="_blank" rel="noopener" href="${s.searchUrl}">
+              ${s.logo ? `<img src="${s.logo}" alt="">` : `<span class="dot" style="background:${s.color}"></span>`}
+              <span>Buscar en ${CN.esc(s.company)}</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7l10 10M17 17H9M17 17V9"/></svg>
+            </a>`).join("")}</div>`;
 
     // --- Historial ---
     const withHist = stores.filter((s) => (s.history || []).length >= 2).sort((a, b) => CN.effective(a) - CN.effective(b))[0];
@@ -88,17 +108,11 @@ window.CNCompare = {
     container.innerHTML = `
       <div class="cmp">
         <div class="cmp-main">
-          <h3 class="cmp-title">Precio en cada tienda</h3>
-          <div class="table-wrap cmp-table-wrap">
-            <table class="cmp-table">
-              <thead><tr><th>Tienda</th><th>Precio</th><th>Precio especial</th><th></th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
-          </div>
+          ${tableBlock}
           ${historyBlock}
           ${specsBlock}
           ${offersBlock}
-          <p class="muted cmp-disclaimer">Los precios son referenciales y se actualizan periódicamente; el stock puede cambiar en la tienda. Los marcados “ref.” son precios de referencia del mercado, por confirmar al validar. Si una tienda no lista este producto verás “Consultar”, y el botón abre su buscador. No comparamos accesorios, usados ni reacondicionados frente a un equipo nuevo.</p>
+          <p class="muted cmp-disclaimer">Solo mostramos tiendas con precio validado; las que no listan este producto no aparecen. Los precios son referenciales y se actualizan periódicamente; el stock puede cambiar en la tienda. Los marcados “ref.” son precios de referencia del mercado, por confirmar al validar. No comparamos accesorios, usados ni reacondicionados frente a un equipo nuevo.</p>
         </div>
         <aside class="cmp-side">${buyCard}</aside>
       </div>`;
