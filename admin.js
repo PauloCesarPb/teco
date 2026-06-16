@@ -15,7 +15,7 @@
     tb.innerHTML = provs.length ? provs.map((p) => `
       <tr>
         <td>${CN.esc(p.nombre)}<br><span class="muted" style="font-size:.8rem">${CN.esc(p.ruc || "")}</span></td>
-        <td>${CN.esc(p.contacto || "")}<br><span class="muted" style="font-size:.8rem">${CN.esc(p.whatsapp || p.correo || "")}</span></td>
+        <td>${CN.esc(p.contacto || "")}<br><span class="muted" style="font-size:.8rem">${CN.esc(p.correo || "")}${p.whatsapp ? " · " + CN.esc(p.whatsapp) : ""}</span></td>
         <td>${CN.esc(p.categoria || "-")}</td>
         <td>${badge(p.estado)}</td>
         <td>

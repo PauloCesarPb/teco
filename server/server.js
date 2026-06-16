@@ -51,8 +51,9 @@ function loadSecret() {
 const SECRET = loadSecret();
 const TOKEN_TTL_MS = 1000 * 60 * 60 * 12; // 12 horas
 
-function signToken(role) {
-  const body = Buffer.from(`${role}:${Date.now() + TOKEN_TTL_MS}`).toString("base64url");
+// El token lleva rol + id de proveedor (pid, vacío para admin) + expiración.
+function signToken(role, pid) {
+  const body = Buffer.from(`${role}:${pid || ""}:${Date.now() + TOKEN_TTL_MS}`).toString("base64url");
   const sig = crypto.createHmac("sha256", SECRET).update(body).digest("base64url");
   return `${body}.${sig}`;
 }
@@ -64,9 +65,24 @@ function verifyToken(token) {
   const expected = crypto.createHmac("sha256", SECRET).update(body).digest("base64url");
   const a = Buffer.from(sig), b = Buffer.from(expected);
   if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) return null;
-  const [role, exp] = Buffer.from(body, "base64url").toString("utf8").split(":");
+  const parts = Buffer.from(body, "base64url").toString("utf8").split(":");
+  const role = parts[0], pid = parts[1], exp = parts[2];
   if (!role || !exp || Number(exp) < Date.now()) return null;
-  return { role, exp: Number(exp) };
+  return { role, pid: pid || null, exp: Number(exp) };
+}
+
+// Contraseñas: hash scrypt con salt (sin dependencias externas).
+function hashPassword(password) {
+  const salt = crypto.randomBytes(16).toString("hex");
+  const hash = crypto.scryptSync(String(password), salt, 64).toString("hex");
+  return salt + ":" + hash;
+}
+function verifyPassword(password, stored) {
+  if (!stored || typeof stored !== "string" || !stored.includes(":")) return false;
+  const [salt, hash] = stored.split(":");
+  const h = crypto.scryptSync(String(password), salt, 64).toString("hex");
+  const a = Buffer.from(h), b = Buffer.from(hash);
+  return a.length === b.length && crypto.timingSafeEqual(a, b);
 }
 
 function getToken(req) {
@@ -352,24 +368,36 @@ app.post("/api/validate-prices/:productId", auth(["admin"]), async (req, res) =>
 
 /* ---------- Proveedores (solicitudes) ---------- */
 app.get("/api/providers", auth(["admin"]), (req, res) => {
-  res.json(readJson("providers.json", []));
+  // Nunca exponemos el hash de la contraseña.
+  res.json(readJson("providers.json", []).map(({ passwordHash, ...rest }) => rest));
 });
+// Registro de proveedor: crea una cuenta con correo + contraseña en estado
+// "Pendiente". No puede iniciar sesión hasta que el admin la apruebe.
 app.post("/api/providers", (req, res) => {
   const b = req.body || {};
-  if (!b.nombre || !b.contacto) {
-    return res.status(400).json({ error: "Nombre comercial y contacto son obligatorios" });
+  const correo = (b.correo || "").trim().toLowerCase();
+  if (!b.nombre || !b.contacto || !correo || !b.password) {
+    return res.status(400).json({ error: "Nombre, contacto, correo y contraseña son obligatorios" });
+  }
+  if (String(b.password).length < 6) {
+    return res.status(400).json({ error: "La contraseña debe tener al menos 6 caracteres" });
   }
   const providers = readJson("providers.json", []);
+  if (providers.some((p) => (p.correo || "").toLowerCase() === correo)) {
+    return res.status(409).json({ error: "Ya existe una cuenta con ese correo" });
+  }
   const entry = {
     id: "prov-" + Date.now(),
     nombre: b.nombre, ruc: b.ruc || "", contacto: b.contacto,
-    correo: b.correo || "", whatsapp: b.whatsapp || "",
+    correo, whatsapp: b.whatsapp || "",
     categoria: b.categoria || "", comentario: b.comentario || "",
+    passwordHash: hashPassword(b.password),
     estado: "Pendiente", fecha: new Date().toISOString().slice(0, 10),
   };
   providers.push(entry);
   writeJson("providers.json", providers);
-  res.json({ ok: true, provider: entry });
+  const { passwordHash, ...safe } = entry;
+  res.json({ ok: true, provider: safe });
 });
 app.post("/api/providers/:id/:action", auth(["admin"]), (req, res) => {
   const providers = readJson("providers.json", []);
@@ -389,9 +417,25 @@ app.post("/api/offers", auth(["admin", "proveedor"]), (req, res) => {
   const b = req.body || {};
   if (!b.productId) return res.status(400).json({ error: "productId obligatorio" });
   const offers = readJson("offers.json", []);
+  const existing = b.id ? offers.find((o) => o.id === b.id) : null;
+
+  // La identidad del proveedor sale del token, nunca del body.
+  let providerId, proveedorNombre;
+  if (req.session.role === "proveedor") {
+    providerId = req.session.pid;
+    const prov = readJson("providers.json", []).find((p) => p.id === providerId);
+    proveedorNombre = prov ? prov.nombre : "Proveedor";
+    if (existing && existing.providerId && existing.providerId !== providerId) {
+      return res.status(403).json({ error: "No puedes editar ofertas de otro proveedor" });
+    }
+  } else {
+    providerId = (existing && existing.providerId) || b.providerId || null;
+    proveedorNombre = (existing && existing.proveedor) || b.proveedor || "Proveedor";
+  }
+
   const entry = {
     id: b.id || "off-" + Date.now(),
-    productId: b.productId, proveedor: b.proveedor || "Proveedor",
+    productId: b.productId, providerId, proveedor: proveedorNombre,
     price: b.price ? Number(b.price) : null, stock: b.stock || "",
     garantia: b.garantia || "", delivery: b.delivery || "",
     whatsapp: b.whatsapp || "", activo: b.activo !== false,
@@ -403,23 +447,44 @@ app.post("/api/offers", auth(["admin", "proveedor"]), (req, res) => {
   res.json({ ok: true, offer: entry });
 });
 
+// Ofertas del proveedor autenticado (para su panel).
+app.get("/api/my-offers", auth(["proveedor"]), (req, res) => {
+  res.json(readJson("offers.json", []).filter((o) => o.providerId === req.session.pid));
+});
+
 /* ---------- Login básico (servidor) ---------- */
 app.post("/api/login", (req, res) => {
   const { role, password } = req.body || {};
-  const expected = USERS[role];
-  // Comparación en tiempo constante para no filtrar la contraseña por timing.
-  const ok = typeof expected === "string" && typeof password === "string" &&
+
+  // Proveedor: inicia sesión con su propio correo + contraseña, y solo si su
+  // cuenta fue aprobada por el admin.
+  if (role === "proveedor") {
+    const correo = ((req.body.email || req.body.correo || "")).trim().toLowerCase();
+    const prov = readJson("providers.json", []).find((p) => (p.correo || "").toLowerCase() === correo);
+    if (!prov || !verifyPassword(password, prov.passwordHash)) {
+      return res.status(401).json({ ok: false, error: "Correo o contraseña incorrectos" });
+    }
+    if (prov.estado !== "Aprobado") {
+      const msg = prov.estado === "Rechazado"
+        ? "Tu cuenta fue rechazada. Escríbenos para más información."
+        : "Tu cuenta aún está pendiente de aprobación. Te avisaremos cuando esté lista.";
+      return res.status(403).json({ ok: false, error: msg });
+    }
+    return res.json({ ok: true, role: "proveedor", nombre: prov.nombre, token: signToken("proveedor", prov.id) });
+  }
+
+  // Admin: contraseña compartida (comparación en tiempo constante).
+  const expected = USERS.admin;
+  const ok = role === "admin" && typeof expected === "string" && typeof password === "string" &&
     expected.length === password.length &&
     crypto.timingSafeEqual(Buffer.from(expected), Buffer.from(password));
-  if (ok) {
-    return res.json({ ok: true, role, token: signToken(role) });
-  }
+  if (ok) return res.json({ ok: true, role: "admin", token: signToken("admin") });
   res.status(401).json({ ok: false, error: "Credenciales incorrectas" });
 });
 
 // Comprueba que el token siga siendo válido (lo usan los guards de panel).
 app.get("/api/me", auth(), (req, res) => {
-  res.json({ ok: true, role: req.session.role, exp: req.session.exp });
+  res.json({ ok: true, role: req.session.role, pid: req.session.pid, exp: req.session.exp });
 });
 
 /* ---------- Importación masiva de productos ---------- */

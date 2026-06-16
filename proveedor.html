@@ -14,8 +14,8 @@
   <section class="section">
     <div class="container">
       <div class="prose center" style="max-width:620px">
-        <h2>Afilia tu tienda a TECO</h2>
-        <p class="muted">Publica tus ofertas y llega a clientes que ya están comparando precios. Revisamos cada solicitud antes de aprobarla.</p>
+        <h2>Crea tu cuenta de proveedor</h2>
+        <p class="muted">Crea tu cuenta con correo y contraseña. <b>Revisamos cada solicitud y te avisamos al aprobarla</b>; recién ahí podrás iniciar sesión y publicar tus ofertas.</p>
       </div>
       <div class="panel" style="max-width:620px;margin:24px auto 0">
         <form class="form wide" id="prov-form">
@@ -25,9 +25,10 @@
             <div class="field"><label>Contacto *</label><input name="contacto" required /></div>
           </div>
           <div class="grid-2">
-            <div class="field"><label>Correo</label><input type="email" name="correo" /></div>
+            <div class="field"><label>Correo (será tu usuario) *</label><input type="email" name="correo" required autocomplete="email" /></div>
             <div class="field"><label>WhatsApp</label><input name="whatsapp" placeholder="51999999999" /></div>
           </div>
+          <div class="field"><label>Contraseña * (mínimo 6 caracteres)</label><input type="password" name="password" minlength="6" required autocomplete="new-password" /></div>
           <div class="field"><label>Categoría de productos</label>
             <select name="categoria">
               <option value="">Selecciona…</option>
@@ -36,7 +37,7 @@
             </select>
           </div>
           <div class="field"><label>Comentario o descripción</label><textarea name="comentario"></textarea></div>
-          <button class="btn btn-primary btn-block" type="submit">Enviar solicitud</button>
+          <button class="btn btn-primary btn-block" type="submit">Crear cuenta</button>
           <div id="prov-msg"></div>
         </form>
       </div>

@@ -77,7 +77,7 @@
   const logout = document.getElementById("cn-logout");
   if (logout) logout.addEventListener("click", (e) => {
     e.preventDefault();
-    localStorage.removeItem("cn_token"); localStorage.removeItem("cn_role");
+    localStorage.removeItem("cn_token"); localStorage.removeItem("cn_role"); localStorage.removeItem("cn_name");
     location.href = "index.html";
   });
 })();
