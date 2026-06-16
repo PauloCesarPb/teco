@@ -22,7 +22,7 @@ window.CNCompare = {
           <div class="buy-sub">Precio referencial. Confirma el precio final en la tienda antes de comprar.</div>
           <div class="buy-info">
             <span class="buy-info-icon">📊</span>
-            <div><b>Compara antes de comprar.</b> Revisa el precio en todas las tiendas y el historial más abajo.</div>
+            <div><b>Compara antes de comprar.</b> Revisa el precio en todas las tiendas y la evolución del precio más abajo.</div>
           </div>
         </div>`;
     } else {
@@ -88,7 +88,7 @@ window.CNCompare = {
     container.innerHTML = `
       <div class="cmp">
         <div class="cmp-main">
-          <h3 class="cmp-title">Otras opciones</h3>
+          <h3 class="cmp-title">Precio en cada tienda</h3>
           <div class="table-wrap cmp-table-wrap">
             <table class="cmp-table">
               <thead><tr><th>Tienda</th><th>Precio</th><th>Precio especial</th><th></th></tr></thead>

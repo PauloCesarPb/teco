@@ -40,7 +40,7 @@
       <div class="footer-grid">
         <div>
           <a class="brand" href="index.html"><span class="dot"></span>TE<b>CO</b></a>
-          <p style="margin-top:12px;max-width:34ch;color:#94a3b8">El mejor precio en tecnología: el que <b style="color:#fff">te conviene</b>. Compáralo entre las tiendas más grandes del Perú.</p>
+          <p style="margin-top:12px;max-width:34ch;color:#94a3b8">Encuentra el mejor precio en tecnología comparando las tiendas más grandes del Perú. Comparar siempre es <b style="color:#fff">gratis</b>.</p>
         </div>
         <div class="footer-col"><h4>Explorar</h4>
           <a href="productos.html">Productos</a><a href="favoritos.html">Favoritos</a><a href="buscador-online.html">Comparar precios</a><a href="como-funciona.html">Cómo funciona</a>
@@ -54,7 +54,7 @@
       </div>
       <div class="footer-bottom">
         <span>© ${new Date().getFullYear()} TECO. Hecho en Perú.</span>
-        <span>Los precios mostrados son referenciales y se confirman en cada tienda.</span>
+        <span>Los precios son referenciales; confírmalos en cada tienda antes de comprar.</span>
       </div>
     </div>
   </footer>`;
