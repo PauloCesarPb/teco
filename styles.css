@@ -318,8 +318,10 @@ tr:last-child td { border-bottom: 0; }
 .pcard-brand { font-size: .74rem; font-weight: 700; letter-spacing: .07em; color: var(--muted); margin-bottom: 6px; }
 .pcard-name {
   font-family: var(--display); font-weight: 700; font-size: 1.05rem; line-height: 1.28;
-  margin-bottom: 14px; min-height: 2.7em; display: flex; align-items: center;
+  margin-bottom: 12px; min-height: 2.7em; display: flex; align-items: center;
 }
+.pcard-specs { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 14px; min-height: 26px; }
+.spec-chip { font-size: .72rem; color: var(--muted); background: var(--bg-soft); padding: 4px 9px; border-radius: 999px; white-space: nowrap; }
 .pcard-price { font-family: var(--display); font-weight: 700; font-size: 1.7rem; margin-bottom: 6px; }
 .pcard-price.muted { font-size: 1.25rem; color: var(--muted); }
 .pcard-best {
@@ -336,6 +338,37 @@ tr:last-child td { border-bottom: 0; }
 .pcard-btn:hover { background: var(--blue-dark); }
 .pcard-buy { display: inline-block; margin-top: 13px; font-size: .85rem; color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
 .pcard-buy:hover { color: var(--blue); }
+
+/* ===== Fila de producto (lista del catálogo) ===== */
+.prow-list { display: flex; flex-direction: column; gap: 10px; }
+.prow {
+  position: relative; display: flex; align-items: center; gap: 16px;
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 18px 14px 46px; transition: box-shadow .14s, border-color .14s;
+}
+.prow:hover { box-shadow: var(--shadow-sm); border-color: #cbd5e1; }
+.prow .fav { position: absolute; top: 50%; left: 12px; right: auto; transform: translateY(-50%); }
+.prow .fav svg { width: 20px; height: 20px; }
+.prow .fav:active { transform: translateY(-50%) scale(.9); }
+.prow-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.prow-brand { font-size: .68rem; font-weight: 700; letter-spacing: .06em; color: var(--muted); }
+.prow-name { font-family: var(--display); font-weight: 700; font-size: 1.02rem; line-height: 1.25; color: var(--ink); }
+.prow-specs { font-size: .82rem; color: var(--muted); }
+.prow-price { text-align: right; flex-shrink: 0; }
+.prow-amount { font-family: var(--display); font-weight: 700; font-size: 1.25rem; }
+.prow-amount.muted { font-size: 1rem; color: var(--muted); }
+.prow-store { font-size: .78rem; color: var(--muted); }
+.prow-off { color: #16a34a; font-weight: 700; }
+.prow-btn {
+  flex-shrink: 0; background: var(--ink); color: #fff; border-radius: var(--radius-sm);
+  padding: 10px 18px; font-weight: 600; font-size: .88rem; white-space: nowrap; transition: background .15s;
+}
+.prow-btn:hover { background: var(--blue-dark); }
+@media (max-width: 640px) {
+  .prow { flex-wrap: wrap; gap: 8px 12px; }
+  .prow-price { text-align: left; }
+  .prow-btn { width: 100%; text-align: center; }
+}
 
 /* ===== Tira de categorías ===== */
 .cat-strip { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 22px; }

@@ -63,7 +63,7 @@
 
     count.textContent = out.length + (out.length === 1 ? " producto" : " productos");
     list.innerHTML = out.length
-      ? out.map((p) => CNCards.card(p, CN.storesFor(companies, refs, p))).join("")
+      ? out.map((p) => CNCards.row(p, CN.storesFor(companies, refs, p))).join("")
       : `<div class="empty">No hay productos con esos filtros.</div>`;
     CNCards.initFavorites(list);
   }
