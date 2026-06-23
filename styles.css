@@ -182,6 +182,8 @@ tr:last-child td { border-bottom: 0; }
 /* ===== Legal / prose ===== */
 .prose { max-width: 760px; margin: 0 auto; }
 .prose h2 { margin-top: 1.6em; }
+.prose h3 { margin-top: 1.5em; margin-bottom: .4em; font-size: 1.05rem; }
+.prose p { color: var(--muted); margin: .5em 0; line-height: 1.65; }
 .prose ul { padding-left: 1.2em; color: var(--muted); }
 .faq-item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 18px 20px; margin-bottom: 12px; }
 .faq-item h3 { margin-bottom: 6px; }
