@@ -576,6 +576,31 @@ app.get("/api/admin/stats", auth(["admin"]), (req, res) => {
     .map(([proveedor, contactos]) => ({ proveedor, contactos }))
     .sort((a, b) => b.contactos - a.contactos);
 
+  // Ventas por día (últimos 14 días, rellenando los días sin ventas).
+  const byDay = {};
+  ventas.forEach((v) => {
+    const e = byDay[v.fecha] || { monto: 0, n: 0, comision: 0 };
+    e.monto += v.monto || 0; e.n += 1; e.comision += v.comision || 0;
+    byDay[v.fecha] = e;
+  });
+  const ventasPorDia = [];
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date(); d.setDate(d.getDate() - i);
+    const f = d.toISOString().slice(0, 10);
+    ventasPorDia.push({ fecha: f, ...(byDay[f] || { monto: 0, n: 0, comision: 0 }) });
+  }
+
+  // Productos más vendidos.
+  const byProd = {};
+  ventas.forEach((v) => {
+    const e = byProd[v.producto] || { n: 0, monto: 0 };
+    e.n += 1; e.monto += v.monto || 0;
+    byProd[v.producto] = e;
+  });
+  const topProductos = Object.entries(byProd)
+    .map(([producto, x]) => ({ producto, ...x }))
+    .sort((a, b) => b.n - a.n).slice(0, 5);
+
   res.json({
     clientes: users.filter((u) => u.role === "comprador").length,
     proveedores: users.filter((u) => u.role === "proveedor" && u.estado === "Aprobado").length,
@@ -585,6 +610,8 @@ app.get("/api/admin/stats", auth(["admin"]), (req, res) => {
     montoTotal: ventas.reduce((s, v) => s + (v.monto || 0), 0),
     contactosTotal: offers.reduce((s, o) => s + (o.contactos || 0), 0),
     porProveedor,
+    ventasPorDia,
+    topProductos,
     ofertas: offers
       .map((o) => ({ producto: pName[o.productId] || o.productId, proveedor: o.proveedor, price: o.price, stock: o.stock, contactos: o.contactos || 0 }))
       .sort((a, b) => b.contactos - a.contactos),

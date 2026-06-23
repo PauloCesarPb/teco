@@ -28,6 +28,10 @@
       <h3>Resumen</h3>
       <div class="kpis" id="kpis"></div>
 
+      <h3>Ventas (últimos 14 días)</h3>
+      <p class="muted" style="margin:-6px 0 14px">Monto de ventas referidas por día.</p>
+      <div class="panel" style="margin-bottom:34px"><div id="ventas-chart"></div></div>
+
       <div class="dash-grid">
         <div>
           <h3>Ofertas publicadas</h3>
@@ -44,12 +48,24 @@
         </div>
       </div>
 
-      <h3>Últimas ventas</h3>
-      <p class="muted" style="margin:-6px 0 14px">Comisiones ganadas por venta referida.</p>
-      <div class="table-wrap" style="margin-bottom:34px"><table id="sales-table">
-        <thead><tr><th>Fecha</th><th>Producto</th><th>Cliente</th><th>Vendedor</th><th>Monto</th><th>Comisión</th></tr></thead>
-        <tbody></tbody>
-      </table></div>
+      <div class="dash-grid">
+        <div>
+          <h3>Últimas ventas</h3>
+          <p class="muted" style="margin:-6px 0 14px">Comisiones ganadas por venta referida.</p>
+          <div class="table-wrap"><table id="sales-table">
+            <thead><tr><th>Fecha</th><th>Producto</th><th>Cliente</th><th>Vendedor</th><th>Monto</th><th>Comisión</th></tr></thead>
+            <tbody></tbody>
+          </table></div>
+        </div>
+        <div>
+          <h3>Productos más vendidos</h3>
+          <p class="muted" style="margin:-6px 0 14px">Ranking por número de ventas.</p>
+          <div class="table-wrap"><table id="top-prod">
+            <thead><tr><th>Producto</th><th>Ventas</th><th>Monto</th></tr></thead>
+            <tbody></tbody>
+          </table></div>
+        </div>
+      </div>
 
       <h3>Lo que la gente busca y aún no tienes</h3>
       <p class="muted" style="margin:-6px 0 14px">Términos que tus visitantes buscaron y no estaban en el catálogo. Empieza por los de arriba: son demanda real.</p>

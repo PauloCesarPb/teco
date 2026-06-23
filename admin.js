@@ -112,6 +112,23 @@
         </div>`).join("") || `<p class="muted">Sin datos.</p>`;
     }
 
+    const vc = document.getElementById("ventas-chart");
+    if (vc) {
+      const dias = s.ventasPorDia || [];
+      const max = Math.max(1, ...dias.map((d) => d.monto));
+      vc.innerHTML = `<div class="vbars">` + dias.map((d) => {
+        const h = Math.round((d.monto / max) * 100);
+        const dd = d.fecha.slice(8, 10) + "/" + d.fecha.slice(5, 7);
+        return `<div class="vbar" title="${d.fecha}: ${CN.money(d.monto)} · ${d.n} ventas">
+          <div class="vbar-fill" style="height:${h}%"></div><span>${dd}</span></div>`;
+      }).join("") + `</div>`;
+    }
+
+    const tp = document.querySelector("#top-prod tbody");
+    if (tp) tp.innerHTML = (s.topProductos || []).map((p) => `
+      <tr><td>${CN.esc(p.producto)}</td><td><b>${p.n}</b></td><td>${CN.money(p.monto)}</td></tr>`).join("")
+      || `<tr><td colspan="3" class="muted" style="text-align:center;padding:18px">Sin datos.</td></tr>`;
+
     const st = document.querySelector("#sales-table tbody");
     if (st) st.innerHTML = (s.ultimasVentas || []).map((v) => `
       <tr><td>${CN.esc(v.fecha)}</td><td>${CN.esc(v.producto)}</td><td>${CN.esc(v.comprador)}</td><td>${CN.esc(v.vendedor)}</td><td>${CN.money(v.monto)}</td><td style="color:#16a34a;font-weight:700">${CN.money(v.comision)}</td></tr>`).join("")
