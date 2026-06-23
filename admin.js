@@ -84,6 +84,40 @@
     return `<span class="badge badge-amber">${s || "Pendiente"}</span>`;
   }
 
+  // Dashboard de estadísticas (clientes, proveedores, ventas, ganancias, contactos)
+  async function loadStats() {
+    let s; try { s = await (await CNAuth.fetch("/api/admin/stats")).json(); } catch (e) { return; }
+    const kpis = document.getElementById("kpis");
+    if (kpis) kpis.innerHTML = [
+      ["Ganancias del mes", CN.money(s.ganancia), "money"],
+      ["Ventas referidas", s.ventas, ""],
+      ["Clientes registrados", s.clientes, ""],
+      ["Proveedores afiliados", s.proveedores, ""],
+      ["Ofertas activas", s.ofertasActivas, ""],
+      ["Contactos generados", (s.contactosTotal || 0).toLocaleString("es-PE"), ""],
+    ].map(([l, v, c]) => `<div class="kpi ${c}"><div class="kpi-v">${v}</div><div class="kpi-l">${CN.esc(l)}</div></div>`).join("");
+
+    const ot = document.querySelector("#dash-offers tbody");
+    if (ot) ot.innerHTML = (s.ofertas || []).slice(0, 12).map((o) => `
+      <tr><td>${CN.esc(o.producto)}</td><td>${CN.esc(o.proveedor)}</td><td>${o.price != null ? CN.money(o.price) : "—"}</td><td>${CN.esc(o.stock || "-")}</td><td><b>${o.contactos}</b></td></tr>`).join("")
+      || `<tr><td colspan="5" class="muted" style="text-align:center;padding:18px">Sin ofertas.</td></tr>`;
+
+    const hist = document.getElementById("histograma");
+    if (hist) {
+      const max = Math.max(1, ...(s.porProveedor || []).map((p) => p.contactos));
+      hist.innerHTML = (s.porProveedor || []).map((p) => `
+        <div class="bar-row">
+          <div class="bar-head"><span>${CN.esc(p.proveedor)}</span><span>${p.contactos} contactos</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${Math.round(p.contactos / max * 100)}%"></div></div>
+        </div>`).join("") || `<p class="muted">Sin datos.</p>`;
+    }
+
+    const st = document.querySelector("#sales-table tbody");
+    if (st) st.innerHTML = (s.ultimasVentas || []).map((v) => `
+      <tr><td>${CN.esc(v.fecha)}</td><td>${CN.esc(v.producto)}</td><td>${CN.esc(v.comprador)}</td><td>${CN.esc(v.vendedor)}</td><td>${CN.money(v.monto)}</td><td style="color:#16a34a;font-weight:700">${CN.money(v.comision)}</td></tr>`).join("")
+      || `<tr><td colspan="6" class="muted" style="text-align:center;padding:18px">Sin ventas.</td></tr>`;
+  }
+
   // Estado de la actualización automática de feeds
   async function loadFeedStatus() {
     const box = document.getElementById("feed-status");
@@ -122,5 +156,5 @@
     }
   });
 
-  loadFeedStatus(); loadSearches(); loadProviders(); loadOffers(); loadRefs();
+  loadStats(); loadFeedStatus(); loadSearches(); loadProviders(); loadOffers(); loadRefs();
 })();

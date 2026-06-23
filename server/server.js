@@ -20,7 +20,7 @@ app.use(express.json({ limit: "1mb" }));
  * que NO se borren al redesplegar en Render. El resto (catálogo, fuentes…)
  * sigue en archivos versionados en Git. readJson/writeJson siguen siendo
  * síncronos gracias a una caché en memoria respaldada en la base de datos. */
-const DB_KEYS = new Set(["users.json", "providers.json", "offers.json", "searches.json", "feed-status.json"]);
+const DB_KEYS = new Set(["users.json", "providers.json", "offers.json", "searches.json", "feed-status.json", "sales.json"]);
 let pool = null;
 const cache = {};
 
@@ -560,6 +560,36 @@ app.post("/api/login", (req, res) => {
     return res.status(403).json({ ok: false, error: msg });
   }
   res.json({ ok: true, role: user.role, nombre: user.nombre, token: signToken(user.role, user.id) });
+});
+
+// Métricas para el panel admin (clientes, proveedores, ventas, ganancias,
+// contactos por proveedor, ofertas publicadas).
+app.get("/api/admin/stats", auth(["admin"]), (req, res) => {
+  const users = getUsers();
+  const offers = readJson("offers.json", []).filter((o) => o.activo);
+  const ventas = readJson("sales.json", []);
+  const pName = Object.fromEntries(readJson("products.json", []).map((p) => [p.id, p.name]));
+
+  const byProv = {};
+  offers.forEach((o) => { byProv[o.proveedor] = (byProv[o.proveedor] || 0) + (o.contactos || 0); });
+  const porProveedor = Object.entries(byProv)
+    .map(([proveedor, contactos]) => ({ proveedor, contactos }))
+    .sort((a, b) => b.contactos - a.contactos);
+
+  res.json({
+    clientes: users.filter((u) => u.role === "comprador").length,
+    proveedores: users.filter((u) => u.role === "proveedor" && u.estado === "Aprobado").length,
+    ofertasActivas: offers.length,
+    ventas: ventas.length,
+    ganancia: ventas.reduce((s, v) => s + (v.comision || 0), 0),
+    montoTotal: ventas.reduce((s, v) => s + (v.monto || 0), 0),
+    contactosTotal: offers.reduce((s, o) => s + (o.contactos || 0), 0),
+    porProveedor,
+    ofertas: offers
+      .map((o) => ({ producto: pName[o.productId] || o.productId, proveedor: o.proveedor, price: o.price, stock: o.stock, contactos: o.contactos || 0 }))
+      .sort((a, b) => b.contactos - a.contactos),
+    ultimasVentas: ventas.slice(0, 8),
+  });
 });
 
 // Comprueba que el token siga siendo válido (lo usan los guards de panel).

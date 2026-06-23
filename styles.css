@@ -385,6 +385,21 @@ tr:last-child td { border-bottom: 0; }
   .prow-btn { width: 100%; text-align: center; }
 }
 
+/* ===== Panel admin: estadísticas ===== */
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin-bottom: 30px; }
+.kpi { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 16px; }
+.kpi-v { font-family: var(--display); font-weight: 800; font-size: 1.55rem; line-height: 1.1; }
+.kpi-l { font-size: .8rem; color: var(--muted); margin-top: 4px; }
+.kpi.money { background: #eafaf0; border-color: #cdeed9; }
+.kpi.money .kpi-v { color: #16a34a; }
+.dash-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 24px; margin-bottom: 34px; align-items: start; }
+.bar-row { margin-bottom: 14px; }
+.bar-head { display: flex; justify-content: space-between; gap: 10px; font-size: .85rem; font-weight: 600; margin-bottom: 5px; }
+.bar-head span:last-child { color: var(--muted); font-weight: 700; white-space: nowrap; }
+.bar-track { height: 9px; background: #eef1f6; border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: #f97316; border-radius: 999px; }
+@media (max-width: 820px) { .dash-grid { grid-template-columns: 1fr; } }
+
 /* ===== Tira de categorías ===== */
 .cat-strip { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 22px; }
 .cat-strip.center { justify-content: center; }

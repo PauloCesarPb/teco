@@ -1,4 +1,10 @@
 node_modules/
+TECO-precios-tiendas.csv
+TECO-precios-tiendas.xlsx
+server/seed-traccion.js
+server/seed-contactos.js
+server/export-csv.js
+server/build-xlsx.py
 server/users.json
 server/providers.json
 server/offers.json

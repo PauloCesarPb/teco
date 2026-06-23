@@ -25,6 +25,32 @@
       <div id="feed-status" style="margin-bottom:10px"></div>
       <div id="refresh-msg" style="margin-bottom:18px"></div>
 
+      <h3>Resumen</h3>
+      <div class="kpis" id="kpis"></div>
+
+      <div class="dash-grid">
+        <div>
+          <h3>Ofertas publicadas</h3>
+          <p class="muted" style="margin:-6px 0 14px">Ordenadas por contactos generados.</p>
+          <div class="table-wrap"><table id="dash-offers">
+            <thead><tr><th>Producto</th><th>Proveedor</th><th>Precio</th><th>Stock</th><th>Contactos</th></tr></thead>
+            <tbody></tbody>
+          </table></div>
+        </div>
+        <div>
+          <h3>Contactos por proveedor</h3>
+          <p class="muted" style="margin:-6px 0 14px">Interés generado por cada proveedor.</p>
+          <div id="histograma"></div>
+        </div>
+      </div>
+
+      <h3>Últimas ventas</h3>
+      <p class="muted" style="margin:-6px 0 14px">Comisiones ganadas por venta referida.</p>
+      <div class="table-wrap" style="margin-bottom:34px"><table id="sales-table">
+        <thead><tr><th>Fecha</th><th>Producto</th><th>Cliente</th><th>Vendedor</th><th>Monto</th><th>Comisión</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+
       <h3>Lo que la gente busca y aún no tienes</h3>
       <p class="muted" style="margin:-6px 0 14px">Términos que tus visitantes buscaron y no estaban en el catálogo. Empieza por los de arriba: son demanda real.</p>
       <div class="table-wrap" style="margin-bottom:34px"><table id="search-table">
